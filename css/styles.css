@@ -6,21 +6,24 @@ Author: William R.A.D. Funk - http://WilliamRobertFunk.com
 body
 {
     padding: 5% 0;
+    background-color: #ADD5F7;
+    color: #16193B;
 }
 header
 {
     padding: 5% 0;
     text-align: center;
     border-top: 1px solid #dddddd;
-}
-h1
-{
-    margin: 0;
+    background-color: #74B2F0;
 }
 h2
 {
     margin: 0;
     padding: 0;
+}
+a
+{
+    color: #35478C;
 }
 footer
 {
@@ -28,8 +31,25 @@ footer
     margin: 10% 0;
     border-top: 1px solid #dddddd;
 }
+.container
+{
+    width: 100%;
+    margin: 0;
+}
 .row
 {
-    padding: 5% 0;
+    padding: 5%;
     border-top: 1px solid #dddddd;
+}
+.odd
+{
+
+}
+.even
+{
+    background-color: #7AD95F;
+}
+.btn.btn-danger
+{
+    background-color: #3F7EA6;
 }
