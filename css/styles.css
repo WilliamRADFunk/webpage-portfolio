@@ -5,33 +5,31 @@ Author: William R.A.D. Funk - http://WilliamRobertFunk.com
 */
 body
 {
-    padding: 10px;
+    padding: 5% 0;
+}
+header
+{
+    padding: 5% 0;
+    text-align: center;
+    border-top: 1px solid #dddddd;
 }
 h1
 {
-
-}
-h2, h3, h4
-{
-
+    margin: 0;
 }
 h2
 {
-
+    margin: 0;
+    padding: 0;
 }
-h3
+footer
 {
-
+    padding: 5% 0;
+    margin: 10% 0;
+    border-top: 1px solid #dddddd;
 }
-h4
+.row
 {
-
-}
-a
-{
-
-}
-button
-{
-
+    padding: 5% 0;
+    border-top: 1px solid #dddddd;
 }
