@@ -5,7 +5,7 @@ Author: William R.A.D. Funk - http://WilliamRobertFunk.com
 */
 body
 {
-
+    padding: 10px;
 }
 h1
 {
@@ -33,5 +33,5 @@ a
 }
 button
 {
-    
+
 }
