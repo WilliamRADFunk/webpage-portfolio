@@ -11,8 +11,8 @@ body
 }
 h2
 {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 a
 {
@@ -22,46 +22,63 @@ ol
 {
     background-color: #ADD5F7;
 }
+img
+{
+    border: 1px solid #000000;
+}
 footer
 {
-    padding: 5% 0;
-    margin: 10% 0;
+    padding: 5% 0%;
+    margin: 10% 0%;
     border-top: 1px solid #dddddd;
 }
-.navbar,
 .navbar-default,
-.navbar-inverse a
+.navbar-inverse
 {
+    color: #d9d9d9;
     background-color: #0A4273;
 }
-.navbar-inverse .navbar-toggle
-{
-    color: #FFFFFF;
-    font-weight: bold;
+.navbar-default .navbar-text {
+  color: #f2f2f2;
 }
-.navbar-inverse .navbar-toggle:hover
-{
-    background-color: #ADD5F7;
-    color: #FFFFFF;
+.navbar-default .navbar-nav > li:hover {
+  background-color: #ADD5F7;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #f2f2f2;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #35478C;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f2f2f2;
+  background-color: #073055;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #f2f2f2;
 }
 .container
 {
     width: 100%;
-    margin: 0;
+    margin: 0px;
 }
 .subheader
 {
-    padding: 5% 0;
+    padding: 5% 0%;
     text-align: center;
     border-top: 1px solid #dddddd;
     background-color: #74B2F0;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
-  list-style: none;
+  padding: 0px 15px;
+  margin-bottom: 0px;
   background-color: #ADD5F7;
-  border-radius: 4px;
+  text-align: left;
 }
 .breadcrumb > li + li:before {
   color: #35478C;
@@ -87,4 +104,5 @@ footer
 .btn.btn-danger
 {
     background-color: #3F7EA6;
+    border: 1px solid #000000;
 }
