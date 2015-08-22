@@ -5,16 +5,9 @@ Author: William R.A.D. Funk - http://WilliamRobertFunk.com
 */
 body
 {
-    padding: 5% 0;
+    padding: 50px 0px 0px 0px;
     background-color: #ADD5F7;
     color: #16193B;
-}
-header
-{
-    padding: 5% 0;
-    text-align: center;
-    border-top: 1px solid #dddddd;
-    background-color: #74B2F0;
 }
 h2
 {
@@ -25,21 +18,63 @@ a
 {
     color: #35478C;
 }
+ol
+{
+    background-color: #ADD5F7;
+}
 footer
 {
     padding: 5% 0;
     margin: 10% 0;
     border-top: 1px solid #dddddd;
 }
+.navbar,
+.navbar-default,
+.navbar-inverse a
+{
+    background-color: #0A4273;
+}
+.navbar-inverse .navbar-toggle
+{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-toggle:hover
+{
+    background-color: #ADD5F7;
+    color: #FFFFFF;
+}
 .container
 {
     width: 100%;
     margin: 0;
 }
+.subheader
+{
+    padding: 5% 0;
+    text-align: center;
+    border-top: 1px solid #dddddd;
+    background-color: #74B2F0;
+}
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+  background-color: #ADD5F7;
+  border-radius: 4px;
+}
+.breadcrumb > li + li:before {
+  color: #35478C;
+  content: none;
+}
+.glyphicon-chevron-right::before
+{
+    color: #35478C;
+}
 .row
 {
     padding: 5%;
-    border-top: 1px solid #dddddd;
+    text-align: center;
 }
 .odd
 {
