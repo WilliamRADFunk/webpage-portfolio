@@ -72,21 +72,8 @@ footer
     padding: 5% 0%;
     text-align: center;
     border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
     background-color: #74B2F0;
-}
-.breadcrumb {
-  padding: 0px 15px;
-  margin-bottom: 0px;
-  background-color: #ADD5F7;
-  text-align: left;
-}
-.breadcrumb > li + li:before {
-  color: #35478C;
-  content: none;
-}
-.glyphicon-chevron-right::before
-{
-    color: #35478C;
 }
 .row
 {
@@ -95,7 +82,7 @@ footer
 }
 .odd
 {
-
+    background-color: #ADD5F7;
 }
 .even
 {
@@ -105,4 +92,27 @@ footer
 {
     background-color: #3F7EA6;
     border: 1px solid #000000;
+}
+.btn.btn-danger:hover
+{
+    background-color: #7AD95F;
+    border: 1px solid #FFFFFF;
+    color: #35478C;
+}
+.carousel-indicators
+{
+    display: none;
+}
+.panel-title
+{
+    text-align: center;
+}
+.panel-default > .panel-heading
+{
+    background-color: #7AD95F;
+    border: 1px solid #ADD5F7;
+}
+.panel-group
+{
+    margin-top: 20px;
 }
