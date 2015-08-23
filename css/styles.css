@@ -80,14 +80,6 @@ footer
     padding: 5%;
     text-align: center;
 }
-.odd
-{
-    background-color: #ADD5F7;
-}
-.even
-{
-    background-color: #7AD95F;
-}
 .btn.btn-danger
 {
     background-color: #3F7EA6;
@@ -115,4 +107,21 @@ footer
 .panel-group
 {
     margin-top: 20px;
+}
+.education
+{
+    margin-bottom: 20px;
+}
+.border-box
+{
+    padding-top: 10px;
+    margin-bottom: 5px;
+    min-height: 250px;
+    border-top: 1px solid #000000;
+}
+.job-title
+{
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
 }
