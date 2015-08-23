@@ -32,8 +32,7 @@ blockquote
 }
 footer
 {
-    padding: 5% 0%;
-    margin: 10% 0%;
+    padding-top: 25px;
     border-top: 1px solid #dddddd;
 }
 #comp-skills ul
