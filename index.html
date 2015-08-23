@@ -50,6 +50,51 @@
 			</ul>
 		</div>
 	</nav>
+	<div id="home" class="row subheader">
+		<h2>MISSION</h2>
+	</div>
+	<div class="row">
+		<blockquote>Software Engineering at its finest is robust, clean, and creates a seemless connection between the user's intent and a program's output. It's my strongest desire to excel in all three areas of the craft, and to do so with the highest integrity and security possible.</blockquote>
+	</div>
+	<div id="about" class="row subheader">
+		<h2>ABOUT</h2>
+	</div>
+	<div id="comp-skills" class="row">
+		<h3>Computer related skills &amp; Experience</h3>
+		<div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-3 col-sm-12 col-xs-12">
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>JQuery</li>
+				<li>Bootstrap</li>
+				<li>AngularJS</li>
+				<li>Responsive&nbsp;Design</li>
+			</ul>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+			<ul class="center-skillset">
+				<li>C/C++</li>
+				<li>C#</li>
+				<li>ASP.NET</li>
+				<li>PHP</li>
+				<li>Java</li>
+				<li>SQL</li>
+			</ul>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+			<ul>
+				<li>Microsoft&nbsp;Office&nbsp;Suite</li>
+				<li>OpenOffice&nbsp;Suite</li>
+				<li>Photoshop</li>
+				<li>Dreamweaver</li>
+				<li>Sublime&nbsp;Text</li>
+				<li>Visual&nbsp;Studios&nbsp;2015&nbsp;Community</li>
+				<li>NetBeans</li>
+				<li>Eclipse</li>
+			</ul>
+		</div>
+	</div>
 	<div id="games" class="row subheader">
 		<h2>GAMES</h2>
 	</div>
@@ -193,7 +238,27 @@
 				<div class="panel-body">
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<a href="http://www.williamrobertfunk.com/Games/q-fish/index.html"><img src="images/Q-Fish-screenshots-01.png" alt="Q-Fish - click to play." class="img-responsive img-rounded"></a>
+							<!-- Carousel for screenshots -->
+							<div id="q-fish-carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#q-fish-carousel" data-slide-to="0" class="active"></li>
+									<li data-target="#q-fish-carousel" data-slide-to="1"></li>
+									<li data-target="#q-fish-carousel" data-slide-to="2"></li>
+								</ol>
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<img src="images/q-fish-screenshots-01.png" alt="q-fish - Screenshot" class="img-responsive img-rounded">
+									</div>
+									<div class="item">
+										<img src="images/q-fish-screenshots-02.png" alt="q-fish - Screenshot" class="img-responsive img-rounded">
+									</div>
+									<div class="item">
+										<img src="images/q-fish-screenshots-03.png" alt="q-fish - Screenshot" class="img-responsive img-rounded">
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 							<h3>Q-Fish (06/2015)</h3>
