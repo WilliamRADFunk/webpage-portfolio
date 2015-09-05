@@ -37,10 +37,14 @@ img
 }
 hr
 {
-    margin: 0px 0px 10px 0px;
+    margin: 3px 0px 0px 0px;
     height: 0px;
-    width: 80%;
-    border-top: 3px solid #000000;
+    width: 100%;
+    border-top: 3px solid #ADD5F7;
+}
+hr.row
+{
+    padding: 0%;
 }
 footer
 {
@@ -115,6 +119,7 @@ footer p
 {
     width: 100%;
     margin: 0px;
+    padding: 0px;
 }
 .subheader
 {
@@ -128,7 +133,6 @@ footer p
 }
 .row-header
 {
-    padding: 1% 9%;
     background-color: #ffffff;
 }
 .row-header p
@@ -211,9 +215,22 @@ footer p
 {
     margin-top: 20px;
 }
-.back-to-start
+.job-history a
 {
-    text-decoration: none;
+    color: #282828;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+.job-history span
+{
+    font-weight: bold;
+}
+.job-history hr
+{
+    margin: 0px 0px 10px 0px;
+    height: 0px;
+    width: 85%;
+    border-top: 3px solid #000000;
 }
 @media (min-width: 1200px) {
     body
@@ -240,13 +257,9 @@ footer p
     {
         line-height: 34px;
     }
-    #work p
-    {
-        line-height: 20px;
-    }
     .navbar-fixed-top .navbar-collapse
     {
-      padding-left: 7%;
+        padding-left: 6%;
     }
     .row-header p
     {
@@ -266,6 +279,22 @@ footer p
     {
         margin-bottom: 20px;
     }
+    .job-history
+    {
+        min-height: 360px;
+    }
+    .job-history p
+    {
+        font-size: 17px;
+        line-height: 24px;
+        margin: 15px 0px;
+    }
+    .job-history a
+    {
+        font-size: 17px;
+        line-height: 24px;
+        margin: 10px 0px;
+    }
 }
 @media (max-width: 1199px) {
     body
@@ -282,7 +311,7 @@ footer p
     }
     h4
     {
-        font-size: 18px;
+        font-size: 20px;
     }
     footer a
     {
@@ -292,13 +321,9 @@ footer p
     {
         line-height: 30px;
     }
-    #work p
-    {
-        line-height: 18px;
-    }
     .navbar-fixed-top .navbar-collapse
     {
-      padding-left: 6%;
+      padding-left: 5%;
     }
     .row-header p
     {
@@ -318,6 +343,22 @@ footer p
     {
         margin-bottom: 18px;
     }
+    .job-history
+    {
+        min-height: 365px;
+    }
+    .job-history p
+    {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 15px 0px;
+    }
+    .job-history a
+    {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 10px 0px;
+    }
 }
 @media (max-width: 991px) {
     body
@@ -334,7 +375,7 @@ footer p
     }
     h4
     {
-        font-size: 14px;
+        font-size: 18px;
     }
     footer a
     {
@@ -343,10 +384,6 @@ footer p
     #mission p
     {
         line-height: 28px;
-    }
-    #work p
-    {
-        line-height: 16px;
     }
     .row-header p
     {
@@ -370,6 +407,22 @@ footer p
     {
         margin-bottom: 14px;
     }
+    .job-history
+    {
+        min-height: 275px;
+    }
+    .job-history p
+    {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 15px 0px;
+    }
+    .job-history a
+    {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 10px 0px;
+    }
 }
 @media (max-width: 767px) {
     body
@@ -386,7 +439,7 @@ footer p
     }
     h4
     {
-        font-size: 12px;
+        font-size: 16px;
     }
     footer a
     {
@@ -395,10 +448,6 @@ footer p
     #mission p
     {
         line-height: 24px;
-    }
-    #work p
-    {
-        line-height: 14px;
     }
     .row-header p
     {
@@ -421,5 +470,22 @@ footer p
     .alternate-color p
     {
         margin-bottom: 10px;
+    }
+    .job-history
+    {
+        min-height: 0px;
+        margin-bottom: 20px;
+    }
+    .job-history p
+    {
+        font-size: 13.5px;
+        line-height: 18px;
+        margin: 15px 0px;
+    }
+    .job-history a
+    {
+        font-size: 13.5px;
+        line-height: 18px;
+        margin: 10px 0px;
     }
 }
