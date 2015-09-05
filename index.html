@@ -23,11 +23,17 @@
 <div id="portfolio" class="container">
 	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="row row-header">
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 				<img src="images/logo-WRFunk.png" alt="W.R.FUNK" class="img-responsive">
 			</div>
-			<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-				<span>Plan, program, perfect...</span>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<p>Plan, program, perfect...</p>
+			</div>
+			<div class="col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-6 col-xs-6">
+				<a href="https://github.com/WilliamRADFunk" target="_blank">GitHub</a>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+				<a href="assets/Resume.pdf" target="_blank">Download Resume</a>
 			</div>
 		</div>
 		<div class="navbar-header">
@@ -40,7 +46,6 @@
 		</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About</a></li>
 				<li><a href="#games">Games</a></li>
 				<li class="dropdown"><a href="#" data-toggle="dropdown">Code <span class="caret"></span></a>
@@ -53,60 +58,40 @@
 					</ul>
 				</li>
 				<li><a href="#work">Work Experience</a></li>
-				<li><a href="#education">Education</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a href="https://github.com/WilliamRADFunk" target="_blank">GitHub Portfolio</a></li>
-				<li><a href="assets/Resume.pdf" target="_blank">Download Resume</a></li>
 			</ul>
 		</div>
 	</nav>
-	<div id="home" class="row row-body subheader">
-		<h2>MISSION</h2>
-	</div>
 	<div class="row row-body">
-		<blockquote>Software Engineering at its finest is robust, clean, and creates a seemless connection between the user's intent and a program's output. It's my strongest desire to excel in all three areas of the craft, and to do so with the highest integrity and security possible.</blockquote>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 top-spacer">
+			<!-- Bootstrap spacing to keep navbar from hiding mission statement -->
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 top-spacer">
+			<!-- Bootstrap spacing to keep navbar from hiding mission statement -->
+		</div>
+	</div>
+	<div id="mission" class="row row-body">
+		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<h2><span>My </span><strong>Mission</strong></h2>
+			<p>Software Engineering at its finest is robust, clean, and creates a seemless connection between the user's intent and a program's output. It's my strongest desire to excel in all three areas of the craft, and to do so with the highest integrity and security possible.</p>
+		</div>
+		<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
+			<img src="images/img-featuredGame.png" alt="Newest Game - TicTacToe3D" class="img-responsive">
+		</div>
 	</div>
 	<div id="about" class="row row-body subheader">
-		<h2>ABOUT - William Funk</h2>
+		<h2><span>ABOUT </span><strong>William Funk</strong></h2>
 	</div>
-	<div id="comp-skills" class="row row-body">
-		<h3>Computer related skills &amp; Experience</h3>
-		<div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-3 col-sm-12 col-xs-12">
-			<ul>
-				<li>HTML</li>
-				<li>CSS</li>
-				<li>JavaScript</li>
-				<li>JQuery</li>
-				<li>Bootstrap</li>
-				<li>AngularJS</li>
-				<li>Responsive&nbsp;Design</li>
-			</ul>
+	<div id="comp-skills" class="row row-body alternate-color">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<img src="images/img_computer-related-skills.png" alt="Computer related skills" class="img-responsive">
 		</div>
-		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-			<ul class="center-skillset">
-				<li>C/C++</li>
-				<li>C#</li>
-				<li>ASP.NET</li>
-				<li>PHP</li>
-				<li>Java</li>
-				<li>SQL</li>
-			</ul>
-		</div>
-		<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
-			<ul>
-				<li>Microsoft&nbsp;Office&nbsp;Suite</li>
-				<li>OpenOffice&nbsp;Suite</li>
-				<li>Photoshop</li>
-				<li>Dreamweaver</li>
-				<li>Sublime&nbsp;Text</li>
-				<li>Visual&nbsp;Studios&nbsp;2015&nbsp;Community</li>
-				<li>NetBeans</li>
-				<li>Eclipse</li>
-			</ul>
+		<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 col-xs-12">
+			<img src="images/img_education.png" alt="Education" class="img-responsive">
 		</div>
 	</div>
 	<div id="games" class="row row-body subheader">
-		<h2>GAMES</h2>
+		<h2><span>MY </span><strong>Games</strong></h2>
 	</div>
 	<div class="panel-group" id="accordion-games">
 		<div class="panel panel-default">
@@ -367,82 +352,65 @@
 		</div>
 	</div>
 	<div id="work" class="row row-body subheader">
-		<h2>WORK EXPERIENCE</h2>
+		<h2><span>MY </span><strong>Work Experience</strong></h2>
 	</div>
-	<div class="row row-body center">
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 border-box">
-			<p class="job-title">New Media Programmer</p>
-			<p>Center for Distributed Learning</p>
-			<p>University of Central Florida</p>
-			<p>12701 Pegasus Drive</p>
-			<p>Orlando, FL 32816</p>
-			<p>407-823-4910</p>
+	<div class="row row-body alternate-color">
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<h4>New Media Programmer</h4>
+			<hr>
+			<p>Developing educational widgets in HTML / CSS / Javascript / Angular.js / PHP</p>
+			<p>Center for Distributed Learning</br>University of Central Florida
+			</br>12701 Pegasus Drive</br>Orlando, FL 32816</br>407-823-4910</p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 border-box">
-			<p class="job-title">Front-End Developer</p>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<h4>Front-End Developer</h4>
+			<hr>
 			<p>Freelance</p>
+			<p>Developing HTML/CSS templates and Emails for various clients</p>
 			<p>Toronto, Ontario, Canada</p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 border-box">
-			<p class="job-title">Search Engine Optimization Writer</p>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<h4>SEO Writer</h4>
+			<hr>
 			<p>Freelance</p>
+			<p>Creating META data and page text that maximizes keyword effectiveness.</p>
 			<p>Montreal, Quebec, Canada</p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 border-box">
-			<p class="job-title">Fiction Author</p>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<h4>Fiction Author</h4>
+			<hr>
+			<p>Wrote several professionally published short stories appearing in anthologies.</p>
 			<p>Examples:</p>
 			<p><a href="assets/Penumbra-eMag-Vol-3-Issue-7.pdf">&quot;Replaced&quot;</a></p>
 			<p><a href="http://www2.silverblade.net/2014/09/shifted-suspicions/">&quot;Shifted Suspicions&quot;</a></p>
 			<p><a href="http://freesciencefiction.com/story/william-r-a-d-funk/">&quot;Speak English&quot; &amp; &quot;Pest Control&quot;</a></p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 border-box">
-			<p class="job-title">Copywriter</p>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<h4>Copywriter</h4>
+			<hr>
+			<p>Analyze complex issues and simplify content (write articles) for easy reading.</p>
 			<p>Examples:</p>
 			<p><a href="http://roverarts.com/2013/07/the-language-of-laughter/#more-18655">Roverarts.com</a></p>
 			<p><a href="images/The-National-and-The-Barr-Brothers.png">CornerShopStudios.com (Out of Print)</a></p>
 			<p><a href="images/Football-and-Futbol-New-York-City-FC-The-New-Kid-on-the-Block.png">FootballandFutbol.com (Out of Print)</a></p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 border-box">
-			<p class="job-title">Law Enforcement Officer</p>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+			<h4>Law Enforcement Officer</h4>
+			<hr>
+			<p>Performance under a rigorous set of rules.</p>
 			<p>UCF Police Department</p>
 			<p>3610 Libra Drive</p>
 			<p>Orlando, FL 32816</p>
 			<p>407-823-5555</p>
 		</div>
 	</div>
-	<div id="education" class="row row-body subheader">
-		<h2>EDUCATION</h2>
-	</div>
-	<div class="row row-body">
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 education">
-			<p>B.S. Civil Engineering</p>
-			<p>University of Central Florida</p>
-			<p>2001-2005</p>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-			<p>B.S. Computer Science (in progress)</p>
-			<p>University of Central Florida</p>
-			<p>2015-2016</p>
-		</div>
-	</div>
-	<div id="contact" class="row row-body subheader">
-		<h2>CONTACT</h2>
-	</div>
-	<div class="row row-body">
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-			<p>William Funk</p>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-			<p>12701 Pegasus Drive</p>
-			<p>Orlando, FL 32816</p>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-			<p>contact@WilliamRADFunk.com</p>
-			<p>GitHub Portfolio - <a href="https://github.com/WilliamRADFunk" alt="GitHub Portfolio">github.com/WilliamRADFunk</a></p>
-		</div>
+	<div id="contact" class="row row-body">
+		<h2><span>MY </span><strong>Contact</strong></h2>
+		<p>contact @ WilliamRADFunk . com</p>
 	</div>
 	<footer>
-		<blockquote>Copyright &copy;2015 - William R.A.D. Funk</blockquote>
+		<a href="#mission">Start of page</a>
+		<p>Copyright &copy;2015 - William Funk</p>
 	</footer>
 </div>
 

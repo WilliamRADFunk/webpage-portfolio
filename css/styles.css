@@ -5,14 +5,19 @@ Author: William R.A.D. Funk - http://WilliamRobertFunk.com
 */
 body
 {
-    padding: 75px 0px 0px 0px;
-    background-color: #ADD5F7;
-    color: #16193B;
+    padding: 0px;
+    color: #282828;
+    font-weight: 500;
 }
 h2
 {
     margin: 0px;
     padding: 0px;
+    color: #3a648e;
+}
+h2 span
+{
+    vertical-align: text-top;
 }
 a
 {
@@ -26,36 +31,33 @@ img
 {
     border: 1px solid #000000;
 }
-blockquote
+hr
 {
-    border-left: none;
+    margin: 0px 0px 10px 0px;
+    height: 0px;
+    width: 80%;
+    border-top: 3px solid #000000;
 }
 footer
 {
     padding-top: 25px;
-    border-top: 1px solid #dddddd;
+    text-align: right;
+    margin-right: 8%;
 }
-#comp-skills ul
+footer a
 {
-    text-align: left;
-    list-style: none;
+    color: #000000;
+    font-weight: lighter;
+    text-decoration: underline;
 }
-#comp-skills h3
+#mission p
 {
-    margin-bottom: 40px;
+    margin-top: 15px;
+    line-height: 32px;
 }
-.center-skillset
+#work p
 {
-    padding-left: 60px;
-}
-.row-header
-{
-    padding: 15px;
-    background-color: #ffffff;
-}
-.row-header img
-{
-    border: none;
+    line-height: 17px;
 }
 .navbar-default,
 .navbar-inverse
@@ -104,16 +106,63 @@ footer
 }
 .subheader
 {
-    padding: 5% 0%;
-    text-align: center;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
     background-color: #74B2F0;
 }
+.row
+{
+    padding: 1% 8%;
+}
+.row-header
+{
+    background-color: #ffffff;
+}
+.row-header p
+{
+    color: #000000;
+    font-weight: bold;
+}
+.row-header a
+{
+    color: #000000;
+    font-weight: lighter;
+}
+.row-header img,
+.row-body img
+{
+    border: none;
+}
 .row-body
 {
-    padding: 5%;
-    text-align: center;
+    text-align: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.alternate-color
+{
+    background-color: #ADD5F7;
+}
+.alternate-color p
+{
+    width: 80%;
+}
+.top-spacer
+{
+    height: 150px;
 }
 .btn.btn-danger
 {
@@ -143,20 +192,140 @@ footer
 {
     margin-top: 20px;
 }
-.education
-{
-    margin-bottom: 20px;
-}
-.border-box
-{
-    padding-top: 10px;
-    margin-bottom: 5px;
-    min-height: 250px;
-    border-top: 1px solid #000000;
-}
 .job-title
 {
     color: #000000;
-    font-size: 18px;
     font-weight: bold;
+}
+.job-title p
+{
+    margin: 0px;
+}
+@media (min-width: 1200px) {
+    body
+    {
+        font-size: 20px;
+    }
+    h2
+    {
+        font-size: 38px;
+    }
+    h2 span
+    {
+        font-size: 24px;
+    }
+    footer a
+    {
+        font-size: 18px;
+    }
+    .row-header a
+    {
+        font-size: 18px;
+    }
+    .alternate-color p
+    {
+        margin-bottom: 20px;
+    }
+    .job-title
+    {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1199px) {
+    body
+    {
+        font-size: 18px;
+    }
+    h2
+    {
+        font-size: 32px;
+    }
+    h2 span
+    {
+        font-size: 14px;
+    }
+    footer a
+    {
+        font-size: 14px;
+    }
+    .row-header a
+    {
+        font-size: 14px;
+    }
+    .alternate-color p
+    {
+        margin-bottom: 18px;
+    }
+    .job-title
+    {
+        font-size: 18px;
+    }
+}
+@media (max-width: 991px) {
+    body
+    {
+        font-size: 16px;
+    }
+    h2
+    {
+        font-size: 26px;
+    }
+    h2 span
+    {
+        font-size: 18px;
+    }
+    footer a
+    {
+        font-size: 12px;
+    }
+    .row-header a
+    {
+        font-size: 12px;
+    }
+    .top-spacer
+    {
+        height: 100px;
+    }
+    .alternate-color p
+    {
+        margin-bottom: 14px;
+    }
+    .job-title
+    {
+        font-size: 14px;
+    }
+}
+@media (max-width: 767px) {
+    body
+    {
+        font-size: 14px;
+    }
+    h2
+    {
+        font-size: 22px;
+    }
+    h2 span
+    {
+        font-size: 16px;
+    }
+    footer a
+    {
+        font-size: 12px;
+    }
+    .row-header a
+    {
+        font-size: 12px;
+    }
+    .top-spacer
+    {
+        height: 100px;
+    }
+    .alternate-color p
+    {
+        margin-bottom: 10px;
+    }
+    .job-title
+    {
+        font-size: 12px;
+    }
 }
