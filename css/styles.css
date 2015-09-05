@@ -5,7 +5,7 @@ Author: William R.A.D. Funk - http://WilliamRobertFunk.com
 */
 body
 {
-    padding: 50px 0px 0px 0px;
+    padding: 75px 0px 0px 0px;
     background-color: #ADD5F7;
     color: #16193B;
 }
@@ -47,6 +47,15 @@ footer
 .center-skillset
 {
     padding-left: 60px;
+}
+.row-header
+{
+    padding: 15px;
+    background-color: #ffffff;
+}
+.row-header img
+{
+    border: none;
 }
 .navbar-default,
 .navbar-inverse
@@ -101,7 +110,7 @@ footer
     border-bottom: 1px solid #dddddd;
     background-color: #74B2F0;
 }
-.row
+.row-body
 {
     padding: 5%;
     text-align: center;
