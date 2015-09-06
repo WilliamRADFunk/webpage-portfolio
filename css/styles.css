@@ -3,54 +3,21 @@ TicTacToe Stylesheet v1.0
 Last Updated: 2015-07-28
 Author: William R.A.D. Funk - http://WilliamRobertFunk.com 
 */
-body
-{
-    padding: 0px;
-    color: #282828;
-    font-weight: 500;
-}
-h2
-{
-    margin: 0px;
-    padding: 0px;
-    color: #3a648e;
-}
-h2 span
-{
-    vertical-align: text-top;
-}
-h4
-{
-    font-weight: bold;
-}
 a
 {
     color: #35478C;
 }
-ol
+body
 {
-    background-color: #ADD5F7;
-}
-img
-{
-    border: 1px solid #000000;
-}
-hr
-{
-    margin: 3px 0px 0px 0px;
-    height: 0px;
-    width: 100%;
-    border-top: 3px solid #ADD5F7;
-}
-hr.row
-{
-    padding: 0%;
+    color: #282828;
+    font-weight: 500;
+    padding: 0px;
 }
 footer
 {
+    margin-right: 8%;
     padding-top: 25px;
     text-align: right;
-    margin-right: 8%;
 }
 footer a
 {
@@ -62,6 +29,39 @@ footer p
 {
     margin-top: 15px;
 }
+h2
+{
+    color: #3a648e;
+    margin: 0px;
+    padding: 0px;
+}
+h2 span
+{
+    vertical-align: text-top;
+}
+h4
+{
+    font-weight: bold;
+}
+hr
+{
+    border-top: 3px solid #ADD5F7;
+    height: 0px;
+    margin: 3px 0px 0px 0px;
+    width: 100%;
+}
+hr.row
+{
+    padding: 0%;
+}
+img
+{
+    border: 1px solid #000000;
+}
+ol
+{
+    background-color: #ADD5F7;
+}
 #mission p
 {
     margin-top: 15px;
@@ -70,44 +70,81 @@ footer p
 {
     margin-top: 20px;
 }
-.navbar-default,
-.navbar-inverse
-{
-    width: 100%;
-    color: #d9d9d9;
-    background-color: #0A4273;
-}
-.navbar-default .navbar-text
-{
-    color: #f2f2f2;
-}
-.navbar-default .navbar-nav > ul
-{
-    padding-left: 20px;
-}
-.navbar-default .navbar-nav > li:hover
+.alternate-color
 {
     background-color: #ADD5F7;
 }
-.navbar-default .navbar-nav > li > a
+.alternate-color p
 {
-    color: #f2f2f2;
+    width: 80%;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus
+.btn.btn-danger
 {
-    color: #35478C;
+    background-color: #74b2f0;
+    border: none;
 }
-.navbar-default .navbar-nav > li > a:focus
+.btn.btn-danger:hover
 {
-    color: #f2f2f2;
+    background-color: #3F7EA6;
+    border: none;
+    color: #FFFFFF;
+}
+.carousel-indicators
+{
+    display: none;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.job-history a
+{
+    color: #282828;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+.job-history hr
+{
+    border-top: 3px solid #000000;
+    height: 0px;
+    margin: 0px 0px 10px 0px;
+    width: 85%;
+}
+.job-history span
+{
+    font-weight: bold;
+}
+.navbar-default,
+.navbar-inverse
+{
+    background-color: #0A4273;
+    color: #d9d9d9;
+    width: 100%;
 }
 .navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover
 {
-    color: #f2f2f2;
     background-color: #073055;
+    color: #f2f2f2;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -115,31 +152,99 @@ footer p
 {
     color: #f2f2f2;
 }
-.container
+.navbar-default .navbar-nav > li > a
 {
-    width: 100%;
+    color: #f2f2f2;
+}
+.navbar-default .navbar-nav > li:hover
+{
+    background-color: #ADD5F7;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover
+{
+    color: #35478C;
+}
+.navbar-default .navbar-nav > li > a:focus
+{
+    color: #f2f2f2;
+}
+.navbar-default .navbar-nav > ul
+{
+    padding-left: 20px;
+}
+.navbar-default .navbar-text
+{
+    color: #f2f2f2;
+}
+.panel
+{
+    border: none;
+}
+.panel-default > .panel-heading
+{
+    background-color: #DBE9EC;
+    border: 1px solid #CCCCCC;
+    color: #175480;
+    margin-bottom: 2px;
+}
+.panel-default > .panel-heading h3
+{
     margin: 0px;
+    padding: 10px 15px;
+}
+.panel-heading
+{
     padding: 0px;
 }
-.subheader
+.panel-default > .panel-heading:hover
 {
-    border-top: 1px solid #dddddd;
-    border-bottom: 1px solid #dddddd;
-    background-color: #74B2F0;
+    background-color: #31576E;
+}
+.panel-default > .panel-heading:hover a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.panel-group
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.panel-group h4
+{
+    color: #74B2F0;
+    margin: 0px;
+}
+.panel-group h5
+{
+    color: #282828;
+    margin: 25px 0px;
+}
+.panel-group h5 span
+{
+    font-weight: bold;
+}
+.panel-group img
+{
+    margin-bottom: 25px;
+}
+.panel-title
+{
+    text-align: center;
 }
 .row
 {
     padding: 1% 8%;
 }
+.row-body
+{
+    text-align: left;
+}
 .row-header
 {
     background-color: #ffffff;
-}
-.row-header p
-{
-    color: #000000;
-    font-weight: bold;
-    float: left;
 }
 .row-header a
 {
@@ -156,86 +261,30 @@ footer p
 {
     border: none;
 }
-.row-body
+.row-header p
 {
-    text-align: left;
+    color: #000000;
+    float: left;
+    font-weight: bold;
 }
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
-.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
-.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3,
-.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
-.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
-.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
-.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7,
-.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8,
-.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
-.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
-.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
-.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-.alternate-color
+.subheader
 {
-    background-color: #ADD5F7;
-}
-.alternate-color p
-{
-    width: 80%;
+    background-color: #74B2F0;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
 }
 .top-spacer
 {
     height: 150px;
 }
-.btn.btn-danger
-{
-    background-color: #3F7EA6;
-    border: 1px solid #000000;
-}
-.btn.btn-danger:hover
-{
-    background-color: #7AD95F;
-    border: 1px solid #FFFFFF;
-    color: #35478C;
-}
-.carousel-indicators
-{
-    display: none;
-}
-.panel-title
-{
-    text-align: center;
-}
-.panel-default > .panel-heading
-{
-    background-color: #7AD95F;
-    border: 1px solid #ADD5F7;
-}
-.panel-group
-{
-    margin-top: 20px;
-}
-.job-history a
-{
-    color: #282828;
-    font-weight: lighter;
-    white-space: nowrap;
-}
-.job-history span
-{
-    font-weight: bold;
-}
-.job-history hr
-{
-    margin: 0px 0px 10px 0px;
-    height: 0px;
-    width: 85%;
-    border-top: 3px solid #000000;
-}
 @media (min-width: 1200px) {
     body
     {
         font-size: 20px;
+    }
+    footer a
+    {
+        font-size: 18px;
     }
     h2
     {
@@ -249,45 +298,21 @@ footer p
     {
         font-size: 24px;
     }
-    footer a
-    {
-        font-size: 18px;
-    }
     #mission p
     {
         line-height: 34px;
-    }
-    .navbar-fixed-top .navbar-collapse
-    {
-        padding-left: 6%;
-    }
-    .row-header p
-    {
-        margin: 60px 0px 0px 0px;
-    }
-    .row-header a
-    {
-        font-size: 14px;
-        margin: 50px 5px 0px 0px;
-        float: right;
-    }
-    .row-header img
-    {
-        margin-right: 5px;
     }
     .alternate-color p
     {
         margin-bottom: 20px;
     }
+    .btn
+    {
+        font-size: 19px;
+    }
     .job-history
     {
         min-height: 360px;
-    }
-    .job-history p
-    {
-        font-size: 17px;
-        line-height: 24px;
-        margin: 15px 0px;
     }
     .job-history a
     {
@@ -295,11 +320,55 @@ footer p
         line-height: 24px;
         margin: 10px 0px;
     }
+    .job-history p
+    {
+        font-size: 17px;
+        line-height: 24px;
+        margin: 15px 0px;
+    }
+    .navbar-fixed-top .navbar-collapse
+    {
+        padding-left: 6%;
+    }
+    .panel-default > .panel-heading h3
+    {
+        font-size: 16px;
+    }
+    .panel-group
+    {
+        width: 1020px;
+    }
+    .panel-group h4
+    {
+        font-size: 28px;
+    }
+    .panel-group h5
+    {
+        font-size: 19px;
+    }
+    .row-header a
+    {
+        float: right;
+        font-size: 14px;
+        margin: 50px 5px 0px 0px;
+    }
+    .row-header img
+    {
+        margin-right: 5px;
+    }
+    .row-header p
+    {
+        margin: 60px 0px 0px 0px;
+    }
 }
 @media (max-width: 1199px) {
     body
     {
         font-size: 18px;
+    }
+    footer a
+    {
+        font-size: 14px;
     }
     h2
     {
@@ -313,45 +382,21 @@ footer p
     {
         font-size: 20px;
     }
-    footer a
-    {
-        font-size: 14px;
-    }
     #mission p
     {
         line-height: 30px;
-    }
-    .navbar-fixed-top .navbar-collapse
-    {
-      padding-left: 5%;
-    }
-    .row-header p
-    {
-        margin: 60px 0px 0px 0px;
-    }
-    .row-header a
-    {
-        font-size: 14px;
-        margin: 50px 5px 0px 0px;
-        float: right;
-    }
-    .row-header img
-    {
-        margin-right: 5px;
     }
     .alternate-color p
     {
         margin-bottom: 18px;
     }
+    .btn
+    {
+        font-size: 17px;
+    }
     .job-history
     {
         min-height: 365px;
-    }
-    .job-history p
-    {
-        font-size: 15px;
-        line-height: 22px;
-        margin: 15px 0px;
     }
     .job-history a
     {
@@ -359,11 +404,55 @@ footer p
         line-height: 22px;
         margin: 10px 0px;
     }
+    .job-history p
+    {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 15px 0px;
+    }
+    .navbar-fixed-top .navbar-collapse
+    {
+      padding-left: 5%;
+    }
+    .panel-default > .panel-heading h3
+    {
+        font-size: 16px;
+    }
+    .panel-group
+    {
+        width: 820px;
+    }
+    .panel-group h4
+    {
+        font-size: 26px;
+    }
+    .panel-group h5
+    {
+        font-size: 17px;
+    }
+    .row-header a
+    {
+        float: right;
+        font-size: 14px;
+        margin: 50px 5px 0px 0px;
+    }
+    .row-header img
+    {
+        margin-right: 5px;
+    }
+    .row-header p
+    {
+        margin: 60px 0px 0px 0px;
+    }
 }
 @media (max-width: 991px) {
     body
     {
         font-size: 16px;
+    }
+    footer a
+    {
+        font-size: 12px;
     }
     h2
     {
@@ -377,45 +466,21 @@ footer p
     {
         font-size: 18px;
     }
-    footer a
-    {
-        font-size: 12px;
-    }
     #mission p
     {
         line-height: 28px;
-    }
-    .row-header p
-    {
-        margin: 10px 0px;
-    }
-    .row-header a
-    {
-        font-size: 12px;
-        margin: 0px;
-        float: left;
-    }
-    .row-header img
-    {
-        margin-right: 5px;
-    }
-    .top-spacer
-    {
-        height: 100px;
     }
     .alternate-color p
     {
         margin-bottom: 14px;
     }
+    .btn
+    {
+        font-size: 15px;
+    }
     .job-history
     {
         min-height: 275px;
-    }
-    .job-history p
-    {
-        font-size: 16px;
-        line-height: 20px;
-        margin: 15px 0px;
     }
     .job-history a
     {
@@ -423,11 +488,55 @@ footer p
         line-height: 20px;
         margin: 10px 0px;
     }
+    .job-history p
+    {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 15px 0px;
+    }
+    .panel-default > .panel-heading h3
+    {
+        font-size: 14px;
+    }
+    .panel-group
+    {
+        width: 620px;
+    }
+    .panel-group h4
+    {
+        font-size: 24px;
+    }
+    .panel-group h5
+    {
+        font-size: 15px;
+    }
+    .row-header a
+    {
+        float: left;
+        font-size: 12px;
+        margin: 0px;
+    }
+    .row-header img
+    {
+        margin-right: 5px;
+    }
+    .row-header p
+    {
+        margin: 10px 0px;
+    }
+    .top-spacer
+    {
+        height: 100px;
+    }
 }
 @media (max-width: 767px) {
     body
     {
         font-size: 14px;
+    }
+    footer a
+    {
+        font-size: 12px;
     }
     h2
     {
@@ -441,40 +550,28 @@ footer p
     {
         font-size: 16px;
     }
-    footer a
-    {
-        font-size: 12px;
-    }
     #mission p
     {
         line-height: 24px;
-    }
-    .row-header p
-    {
-        margin: 10px 0px;
-    }
-    .row-header a
-    {
-        font-size: 12px;
-        margin: 0px;
-        float: left;
-    }
-    .row-header img
-    {
-        margin-right: 5px;
-    }
-    .top-spacer
-    {
-        height: 100px;
     }
     .alternate-color p
     {
         margin-bottom: 10px;
     }
+    .btn
+    {
+        font-size: 14px;
+    }
     .job-history
     {
-        min-height: 0px;
         margin-bottom: 20px;
+        min-height: 0px;
+    }
+    .job-history a
+    {
+        font-size: 13.5px;
+        line-height: 18px;
+        margin: 10px 0px;
     }
     .job-history p
     {
@@ -482,10 +579,44 @@ footer p
         line-height: 18px;
         margin: 15px 0px;
     }
-    .job-history a
+    .panel-default > .panel-heading h3
     {
-        font-size: 13.5px;
-        line-height: 18px;
+        font-size: 12px;
+    }
+    .panel-group
+    {
+        width: 420px;
+    }
+    .panel-group h4
+    {
+        font-size: 23px;
+    }
+    .panel-group h5
+    {
+        font-size: 14px;
+    }
+    .row-header a
+    {
+        float: left;
+        font-size: 12px;
+        margin: 0px;
+    }
+    .row-header img
+    {
+        margin-right: 5px;
+    }
+    .row-header p
+    {
         margin: 10px 0px;
+    }
+    .top-spacer
+    {
+        height: 100px;
+    }
+    @media (max-width: 475px) {
+        .panel-group
+        {
+            width: 220px;
+        }
     }
 }
