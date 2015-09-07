@@ -138,6 +138,7 @@ ol
 }
 .job-history hr
 {
+    text-align: left;
     border-top: 3px solid #000000;
     height: 0px;
     margin: 0px 0px 10px 0px;
@@ -652,7 +653,7 @@ ol
     }
     .panel-group
     {
-        width: 420px;
+        width: 90%;
     }
     .panel-group h4
     {
@@ -679,11 +680,5 @@ ol
     .top-spacer
     {
         height: 115px;
-    }
-    @media (max-width: 475px) {
-        .panel-group
-        {
-            width: 220px;
-        }
     }
 }
