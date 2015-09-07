@@ -15,7 +15,7 @@ body
 }
 footer
 {
-    margin-right: 8%;
+    padding-right: 8%;
     padding-top: 25px;
     text-align: right;
 }
@@ -62,13 +62,39 @@ ol
 {
     background-color: #ADD5F7;
 }
-#mission p
+#accordion-games .btn.btn-danger
 {
-    margin-top: 15px;
+    background-color: #74b2f0;
+    border: none;
+}
+#accordion-games .btn.btn-danger:hover
+{
+    background-color: #3F7EA6;
+    border: none;
+    color: #FFFFFF;
 }
 #contact p
 {
     margin-top: 20px;
+}
+#mission .btn.btn-danger
+{
+    background-color: #99ff99;
+    border: none;
+}
+#mission .btn.btn-danger:hover
+{
+    background-color: #7AD95F;
+    border: none;
+    color: #FFFFFF;
+}
+#mission h4
+{
+    color: #99ff99;
+}
+#mission p
+{
+    margin-top: 15px;
 }
 .alternate-color
 {
@@ -77,17 +103,6 @@ ol
 .alternate-color p
 {
     width: 80%;
-}
-.btn.btn-danger
-{
-    background-color: #74b2f0;
-    border: none;
-}
-.btn.btn-danger:hover
-{
-    background-color: #3F7EA6;
-    border: none;
-    color: #FFFFFF;
 }
 .carousel-indicators
 {
@@ -302,6 +317,14 @@ ol
     {
         margin-top: 50px;
     }
+    #mission h4
+    {
+        padding-top: 20px;
+    }
+    #mission h5
+    {
+        font-size: 16px;
+    }
     #mission p
     {
         line-height: 34px;
@@ -390,6 +413,10 @@ ol
     {
         margin-top: 40px;
     }
+    #mission h4
+    {
+        padding-top: 10px;
+    }
     #mission p
     {
         line-height: 30px;
@@ -420,7 +447,7 @@ ol
     }
     .navbar-fixed-top .navbar-collapse
     {
-      padding-left: 5%;
+        padding-left: 5%;
     }
     .panel-default > .panel-heading h3
     {
@@ -477,6 +504,20 @@ ol
     #first-version
     {
         margin-top: 25px;
+    }
+    #mission .btn.btn-danger
+    {
+        margin-bottom: 25px;
+    }
+    #mission h4
+    {
+        font-size: 24px;
+        margin-bottom: 25px;
+        padding-top: 0px;
+    }
+    #mission h5
+    {
+        margin-bottom: 25px;
     }
     #mission p
     {
@@ -538,7 +579,7 @@ ol
     }
     .top-spacer
     {
-        height: 100px;
+        height: 115px;
     }
 }
 @media (max-width: 767px) {
@@ -565,6 +606,16 @@ ol
     #first-version
     {
         margin-top: 20px;
+    }
+    #mission h4
+    {
+        font-size: 20px;
+        margin-bottom: 25px;
+        padding-top: 0px;
+    }
+    #mission h5
+    {
+        margin-bottom: 25px;
     }
     #mission p
     {
@@ -627,7 +678,7 @@ ol
     }
     .top-spacer
     {
-        height: 100px;
+        height: 115px;
     }
     @media (max-width: 475px) {
         .panel-group
