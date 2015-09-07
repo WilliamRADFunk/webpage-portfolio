@@ -298,6 +298,10 @@ ol
     {
         font-size: 24px;
     }
+    #first-version
+    {
+        margin-top: 50px;
+    }
     #mission p
     {
         line-height: 34px;
@@ -381,6 +385,10 @@ ol
     h4
     {
         font-size: 20px;
+    }
+    #first-version
+    {
+        margin-top: 40px;
     }
     #mission p
     {
@@ -466,6 +474,10 @@ ol
     {
         font-size: 18px;
     }
+    #first-version
+    {
+        margin-top: 25px;
+    }
     #mission p
     {
         line-height: 28px;
@@ -549,6 +561,10 @@ ol
     h4
     {
         font-size: 16px;
+    }
+    #first-version
+    {
+        margin-top: 20px;
     }
     #mission p
     {
