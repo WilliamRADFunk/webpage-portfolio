@@ -579,6 +579,7 @@ ol
     {
         float: left;
         font-size: 12px;
+        line-height: 16px;
         margin: 0px;
     }
     .row-header img
@@ -674,11 +675,17 @@ ol
     {
         font-size: 14px;
     }
+    .pdf
+    {
+        margin-right: 10px;
+        padding-left: 45px;
+    }
     .row-header a
     {
         float: left;
         font-size: 12px;
-        margin: 0px;
+        line-height: 16px;
+        margin: 0px 17px;
     }
     .row-header img
     {
