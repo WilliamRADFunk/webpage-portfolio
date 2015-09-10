@@ -67,12 +67,12 @@ ol
 {
     background-color: #ADD5F7;
 }
-#accordion-games .btn.btn-danger
+#accordion-applications .btn.btn-danger
 {
     background-color: #74b2f0;
     border: none;
 }
-#accordion-games .btn.btn-danger:hover
+#accordion-applications .btn.btn-danger:hover
 {
     background-color: #3F7EA6;
     border: none;
