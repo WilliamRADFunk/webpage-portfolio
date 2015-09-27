@@ -18,10 +18,38 @@
 		<h1>TicTacToe 2D (2.0)</h1>
 		<h6>By: William Robert Funk</h6>
 		<div class="chronicle-entry">
-			<h5></h5>
-			<h4></h4>
-			<p>&nbsp;&nbsp;&nbsp;</p>
+			<h5>August 12th, 2015</h5>
+			<h4>Start of Project:</h4>
+			<p>&nbsp;&nbsp;&nbsp;It is the goal of this project to take the old TicTacToe 2D JavaScript game I made in early April and add an AI intelligence to the opposing player. Before, it was human versus human and nothing more. Now that I've learned concepts like Minimax, I intend to put this to use in the British Museum approach to the AI problem.</p>
+			<p>&nbsp;&nbsp;&nbsp;After the human player makes his/her move, the AI will be given a copy of the game board. It will try one move, and pass a theoretical copy of the board down the recursive rabbit hole until every possible combination of that move is determined and a score is assigned. It will then repeat that process for each of the remaining possible moves. With 9 squares total, the computer at most will have 8 possible moves after the human removes one of those 9 from play. This amounts to eight factorial recursive calls. Luckily, this is an easy challenge for modern browsers using JavaScript.</p>
 		</div>
 		<hr>
+		<div class="chronicle-entry">
+			<h5>August 15th, 2015</h5>
+			<h4>Headaches:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Easier said than done, right?</p>
+			<p>&nbsp;&nbsp;&nbsp;I've implemented the minimax, and everything should be working...yet it isn't. I've littered my code with console.log statements to try and suss out the culprit, but this is still never a simple matter whenever recursion is involved. For whatever reason, the scores returned from the minimax recursion calls are either very large or very small. There should be a better spread.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>August 16th, 2015</h5>
+			<h4>Light at the end of the tunnel:</h4>
+			<p>&nbsp;&nbsp;&nbsp;It seems that JavaScript has an issue with recursion and for-loop variables. Somehow the iterator variable in a for-loop called each time the recursive function is called, continues beyond its limit. For example:</p>
+			<p>for(var i = 0; i < 9; i++)</br>{</br>&nbsp;&nbsp;&nbsp;Do something;</br>}</p>
+			<p>...would normally end when i = 9, right? Apparently not. Using my console.log statements, I was able to discover that i continued to print all the way to 10 over and over again. This created a whole host of undefined results. Not sure how to fix this yet. JavaScript seems to be leaking scope during recursion.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>August 17th, 2015</h5>
+			<h4>Finally:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Such a weird problem, and yet such a simple solution. It appears that if I declare the iterator and set it to zero at the start of the recursive function, well before the for-loop, then there's no leak. I simply put var i = 0 first thing and all my woes are resolved. I'm not sure why this would be the fix, but I have a wild guess.</p>
+			<p>&nbsp;&nbsp;&nbsp;I've been learning about how code at a lower level is dealt with; how each function call creates an activation record on a stack, each one piled on top of the other with links to where they were called. It is my belief that by creating i within the for-loop, I was placing the variable scope in a different point in the stack. By placing it at the start of the function, I cemented it to that specific function call. I can't be sure of this theory as it would deal deep, deep, deep within the operating code that I have no access to. Luckily, my solution solves the problem with no noticeable side-effects.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>August 22nd, 2015</h5>
+			<h4>Launch:</h4>
+			<p>&nbsp;&nbsp;&nbsp;I've tested the game in all the main browsers, and on as many mobile devices as I could find. Game appears to be in full working order. TicTacToe 2D now has an unbeatable AI opponent. The real challenge will be to now make a 3D version (8! becomes 26!).</p>
+		</div>
 	</div>
 </body>
