@@ -18,10 +18,25 @@
 		<h1>Pong 3D</h1>
 		<h6>By: William Robert Funk</h6>
 		<div class="chronicle-entry">
-			<h5></h5>
-			<h4></h4>
-			<p>&nbsp;&nbsp;&nbsp;</p>
+			<h5>September 5th, 2015</h5>
+			<h4>Start of Project:</h4>
+			<p>&nbsp;&nbsp;&nbsp;This is where the fun really begins. My first real program involving a graphics library (Three.js). It appears to have everything I need: everything runs in browser, and plenty of documentation for the beginner. I don't want to make the mistake of creating something overly complex when starting off with new tools, and therefore have elected to make a 3D Pong game.</p>
+			<p>&nbsp;&nbsp;&nbsp;My laundry list of things I do want to incorprate are sound FX, character controller using arrow keys, and a worthy AI that isn't "too" perfect. I want a dedicated player to have a chance at winning. We'll see how it goes.</p>
 		</div>
 		<hr>
+		<div class="chronicle-entry">
+			<h5>September 6th, 2015</h5>
+			<h4>A little extra:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Three.js has made this project a lot easier than I expected. Once I got passed the initial headaches of camera, lighting, and renderer coordination, I was able to go a little bit further than I anticipated.</p>
+			<p>&nbsp;&nbsp;&nbsp;I tweaked the camera view to give the player a down-there-in-the-action feel, added a number of relevant sounds procurred from free sound sites (listed in the README), managed to have the angle at which the ball hits the paddle to vary the angle and speed at which it rebounds. The AI was tricky at first. Having it match the balls x-coordinate makes it too perfect. I instead gave the computer a max speed at each frame update. If the ball moved faster along the x-plane than the max computer speed, then it was too far away to stop the ball. The speed is fast enough to make any miss a very close call.</p>
+			<p>&nbsp;&nbsp;&nbsp;Invigorated by the speed of success, I decided to push a little further. I have 3D text in place that matches the score of both computer and player, updating as a point is scored. The coup de gras will be a new feature I want to implement: turning the sidewalls into cheering spectators.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 7th, 2015</h5>
+			<h4>Launch:</h4>
+			<p>&nbsp;&nbsp;&nbsp;I worked it so that both sidewalls appear as a set of bleachers filled with different colored cubes. Using pseudo-random number generation, I have them appear to be moving, giving the scene a more lively feel and the cheering sound effects upon point scored a legitimate source for that sound.</p>
+			<p>&nbsp;&nbsp;&nbsp;I tested and fixed any issues occurring across the major browsers. Though the scene will shrink appropriately for smaller screen sizes, this game is intended for desktop play only. Future applications, I might try making them mobile capable.</p>
+		</div>
 	</div>
 </body>

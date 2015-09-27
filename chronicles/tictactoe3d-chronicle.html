@@ -18,10 +18,41 @@
 		<h1>TicTacToe 3D</h1>
 		<h6>By: William Robert Funk</h6>
 		<div class="chronicle-entry">
-			<h5></h5>
-			<h4></h4>
-			<p>&nbsp;&nbsp;&nbsp;</p>
+			<h5>August 11th, 2015</h5>
+			<h4>Start of Project:</h4>
+			<p>&nbsp;&nbsp;&nbsp;This is definitely a lot more intensive than the 2D version. Aside from the enormous jump in recursive calls for AI (8 factorial becomes 26 factorial), there is the issue of creating a 3D graphic that can be seen by the user in all 27 cubes, but also the need to make this new shape responsive.</p>
+			<p>&nbsp;&nbsp;&nbsp;In my initial coding I am seeing a problem bubble up that may be big. I am trying image mapping (an old-school HTML technique). Though it works like a charm for responsive, there appears to be an issue with changing background colors for any one of the individual cubes once they are hovered over with the mouse or chosen. Research tells me that creating separate overlay colors is the way to resolve this in image mapping, but that would require a lot of unwanted overhead. There has to be a more efficient way to do this.</p>
 		</div>
 		<hr>
+		<div class="chronicle-entry">
+			<h5>August 12th, 2015</h5>
+			<h4>SVG - The way to go:</h4>
+			<p>&nbsp;&nbsp;&nbsp;In search of a solution to my image mapping problem, I started scoping out Canvas. This would make my graphic more interactive, but there tends to be an issue with height and width ratio when shrinking and expanding the browser. JavaScript is said to resolve this through some extra code, but this again would add overhead which I am trying to avoid.</p>
+			<p>&nbsp;&nbsp;&nbsp;My initial research for an alternative to image mapping and Canvas landed me at something called SVG. It is more responsive because it's based off of vectors and not points like Canvas. It is more interactive with background color, as well, because It allows me to create a polygon shape around each cube and change color based on event listeners. I believe this to be my solution, and I'll be moving forward with it.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>August 13th, 2015</h5>
+			<h4>Computational Overload:</h4>
+			<p>&nbsp;&nbsp;&nbsp;SVG worked like a charm. It is responsive at any screen size and easily manipulated using JavaScript and Jquery. I've also managed to create four separate views to give the player something to cycle through for a better visual advantage.</p>
+			<p>&nbsp;&nbsp;&nbsp;Another big issue has reared its ugly head. 26 factorial is a real problem. So much so that I can't get more than depth 2 into the recursion before the wait time is ridiculous. I am going to have to use a couple of algorithms I recently learned: Apla-Beta Pruning and Memoization. These are purported to reduce the number of computations needed by cutting out redundancies and unimportant branches of the minimax tree.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>August 14th, 2015</h5>
+			<h4>Pruning the tree:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Pruning the tree with Alpha-Beta was easy enough as an algorithm. Converting it to work inside a loosely-typed language like JavaScript made things a little tricky at first, but all-in-all straight forward.</p>
+			<p>&nbsp;&nbsp;&nbsp;I'm happy to say this addition shows a significant increase in efficiency. 92% at depth three to be precise. The computer is now able to make it to depth 4 if two minutes is the thinking cutoff for the computer. I'm still going to need memoization for better performance.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>August 17th, 2015</h5>
+			<h4>Memoize &amp; Launch:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Again, the algorithm was straight forward; converting it to JavaScript was interesting. Computer can now reach a depth of 5 with no problem. I made sure to add time cutoffs to make sure the computer doesn't think longer than 2 minutes. Still this isn't an acceptable depth for the computer's thinking process. It's enough to play the game, though, and it even gives the human player a fighting chance.</p>
+			<p>&nbsp;&nbsp;&nbsp;I made many small tweaks to the user interface side of the program. Squashed many bugs, and tested across an array of browsers. I also made the center cube inert as this made for a very short game otherwise.</p>
+			<p>&nbsp;&nbsp;&nbsp;Future reference: it occurs to me that some aspects of this game could have gone better. For one, a 4 x 4 cube makes more sense. I've found out too late that if the first few moves are made correctly there is nothing the opposing player can do to stop it...even a super smart AI. This in my mind defeats the point of a game. Something called webworkers have come up in my reasearch as a potential solution to my slow computation time problem.</p>
+			<p>&nbsp;&nbsp;&nbsp;Rather than invest the time adding webworkers to this version of TicTacToe 3D, when I already know the 3 x 3 model isn't the best it could be, I will make a 4 x 4 version as 2.0. This will use SVG again, and the same AI prinicples (memoization, alpha-beta pruning, minimax) as before. The addition of webworkers should break up the workload dramatically since JavaScript at its core is a single-threaded environment. I intend to make a popup modal in this future version using a webworker, too, that will alert the user to the computer thinking.</p>
+			<p>&nbsp;&nbsp;&nbsp;As version 1.0 stands, I am pleased. It looks significantly better than TicTacToe 2D and uses more complex AI algorithms, which I am finding more and more interesting. Merging the instant gratification of browser based applications and a smart AI system could just be the avenue of deeper interest I've been looking for...not to say my interests won't still vary widely.</p>
+		</div>
 	</div>
 </body>
