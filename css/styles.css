@@ -82,6 +82,33 @@ ol
 {
     margin-top: 20px;
 }
+#container-chronicle
+{
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    height: 90%;
+    margin: 5% 15%;
+    width: 70%;
+}
+#container-chronicle h1
+{
+    margin-bottom: 0px;
+    text-align: center;
+}
+#container-chronicle h6
+{
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+#container-chronicle hr
+{
+    border-top: 3px solid #35478C;
+    height: 0px;
+    margin: 0% auto;
+    text-align: center;
+    width: 90%;
+}
 #mission .btn.btn-danger
 {
     background-color: #99ff99;
@@ -133,6 +160,21 @@ ol
     padding-left: 0px;
     padding-right: 0px;
 }
+.chronicle-entry
+{
+    margin: 0px;
+    padding: 0% 5% 0% 5%;
+    width: 100%;
+}
+.chronicle-entry h4
+{
+    font-size: 15px;
+}
+.chronicle-entry p
+{
+    font-size: 18px;
+    width: 90%;
+}
 .container
 {
     margin: 0px;
@@ -147,10 +189,10 @@ ol
 }
 .job-history hr
 {
-    text-align: left;
     border-top: 3px solid #000000;
     height: 0px;
     margin: 0px 0px 10px 0px;
+    text-align: left;
     width: 85%;
 }
 .job-history span
