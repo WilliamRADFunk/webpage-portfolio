@@ -20,8 +20,51 @@
 		<div class="chronicle-entry">
 			<h5>September 16th, 2015</h5>
 			<h4>Start of project:</h4>
-			<p>&nbsp;&nbsp;&nbsp;</p>
+			<p>&nbsp;&nbsp;&nbsp;The purpose of this project was to familiarize myself with a physics engine. In this case: Physi.js in conjunction with Ammo.js which is a port from the C++ Bullet engine using emscripten. My goal is to create an Angry Bird style shoot and destroy. The weapon will be a cannon, and it will fire at a building or buildings with the intent of hitting a number of targets.</p>
 		</div>
 		<hr>
+		<div class="chronicle-entry">
+			<h5>September 17th, 2015</h5>
+			<h4>The cannon:</h4>
+			<p>&nbsp;&nbsp;&nbsp;First step was to create the cannon and place it on some sort of ground. I found a number of textures (links included in the README) to give the cannon and it's wheels an authentic look. I also found three different cannon ball textures, which will help later when I create three different ammo types.</p>
+			<p>&nbsp;&nbsp;&nbsp;Much of what I did was to organize the code into different JavaScript files for better readability and organization. Tomorrow I'll focus on the finer points of moving the cannon and the different views the play can have.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 18th, 2015</h5>
+			<h4>The view:</h4>
+			<p>&nbsp;&nbsp;&nbsp;I put up some random walls, put together by a bunch of textured block items. It's target practice really as I've gotten the cannon to move left, right, up, and down both by using the arrow keys and the typical videogame WASD; spacebar shoots. There are a few camera views now to give the player a better angle of the entire scene. To improve on this, I need to have the camera track the cannon in one of the views. This would look very cool, and provide excellent aiming.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 19th, 2015</h5>
+			<h4>Themed:</h4>
+			<p>&nbsp;&nbsp;&nbsp;It wasn't originally planned, but I added textures to the scene walls and sky to give the game three different themed looks. I arranged it to pick randomly at startup. Refreshing the page recreates another random pick. There's a beach style, jungle style, and dark hills style. Each one has a varied array of background sounds. The camera shooting, cannonball striking, and cannon movement (in second view) all have sound effects as well. Each theme has a different texture for the bricks, too.</p>
+			<p>&nbsp;&nbsp;&nbsp;Two things have given me untold headaches so far: having the camera track the cannon's movement in second view, and having ammo explode into miniature projectiles upon contact. It seems that having rotated the cannon first (changing its relation to world space) and then attaching the camera to the cannon (Thus having a different relation to world space than the cannon), creates unpredictable rotation of the camera view when it tries to match the cannon turning. After hours of trial and error, though, I managed to sync them up.</p>
+			<p>&nbsp;&nbsp;&nbsp;The exploding projectile, however, was not as easy a challenge to overcome. It seems that the Physi.js engine slows down considerably when enough objects are on the scene. As this happens, the event listeners start to lag, and sometimes fall behind enough that they never fire. At least I managed to have the projectiles explode most of the time. I've noticed the frequency increases the longer it's been since the game loaded in the browser. Maybe much of this has to do with Three.js' dependency on front-loading scripts. I'm not sure this is something I can work around. It might be time to start researching a different Physics engine, like Cannon.js.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 20th, 2015</h5>
+			<h4>Enemies &amp; HUD:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Getting close to conclusion now. I've added a third ammo type, another camera view, randomly placed building structures with a mix of static (without physics) and dynamic elements. Red block enemies were added, hiding around corners and their event listeners detect any collision above a certain speed.</p>
+			<p>&nbsp;&nbsp;&nbsp;The HUD was a straight-forward matter of HTML and CSS with basic JavaScript to update it whenever the data changed. Though it was a simple matter, I enjoyed mixing the overlay with the game. It has really brought the experience to life. It has given me the opportunity to add a game-ending timer, a button legend, ammo count, and remaining enemies on scene. Somehow this makes it look like a good game far more than without.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 22nd, 2015</h5>
+			<h4>A little color:</h4>
+			<p>&nbsp;&nbsp;&nbsp;I took screenshots of the different ammunitition types and altered them in Photoshop to get a small image of the three ammo types. I added this to the HUD where the ammo counts were, and it helps make the HUD pop.</p>
+			<p>&nbsp;&nbsp;&nbsp;Not quite ready to launch. There are a few items I'd like to see completed before I let this see the light of day. Since loadup time can depend on the user's computer, and Three.js is front-loaded, I plan to add a modal to show the user it's loading. This will involve the use of webworkers, which I have recently started to learn. Highlighting the current camera view should help reduce confusion. Since the cannon -- by design -- takes more than a second to load, I think I'll add a small modal to show the user that this is the case, and not due to lag. It's been brought to my attention that a help menu would come in handy. Also, a manual ability to set the theme of the level instead of strictly on page load. Lastly, a manual option to set level of difficulty. I think I can do this by allowing the user to pick 1-4 buildings instead of the 4 set there now. To organize that list:</p>
+			<ul>
+				<li>Initial load up modal</li>
+				<li>Highlight current camera view</li>
+				<li>Cannon reload modal</li>
+				<li>Help menu</li>
+				<li>Manually set theme</li>
+				<li>Manually set number of forts/enemies (difficulty)</li>
+			</ul>
+			<p>&nbsp;&nbsp;&nbsp;Until next time!</p>
+		</div>
 	</div>
 </body>
