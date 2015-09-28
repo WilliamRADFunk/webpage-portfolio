@@ -18,10 +18,49 @@
 		<h1>Encryptor</h1>
 		<h6>By: William Robert Funk</h6>
 		<div class="chronicle-entry">
-			<h5></h5>
-			<h4></h4>
-			<p>&nbsp;&nbsp;&nbsp;</p>
+			<h5>September 10th, 2015</h5>
+			<h4>Start of project:</h4>
+			<p>&nbsp;&nbsp;&nbsp;In a computer security class, I was given the task to write a C/C++ program that encoded a chunk of plaintext using the Hill Cipher. This didn't take me long, but it left me feeling like there could have been far more to learn from the opportunity. As a result, I gave myself a more in-depth assignment. I wanted a program, accessible through the internet, that would encode AND decode text via a number of different ciphers -- user gets to pick.</p>
+			<p>&nbsp;&nbsp;&nbsp;There were a number of different ciphers mentioned in class and briefly passed over, such as: Bitwise, Caesar, Foursquare, Hill, Keyword, Playfair, Transposition, Vigen&egrave;re, DES, AES, Enigma, and more. I decided I couldn't let all these opportunities slip through my fingers. To add an additional challenge, I figured I should use a new language; one that didn't allow the user to easily see each algorithm through the browser like JavaScript would have. That's when I decided on PHP. It's server-side and reasonably secure -- exactly what a program dedicated to secret code deserves.</p>
 		</div>
 		<hr>
+		<div class="chronicle-entry">
+			<h5>September 11th, 2015</h5>
+			<h4>MVC:</h4>
+			<p>&nbsp;&nbsp;&nbsp;This project has already been a boon. It has given me the chance to improve on my understanding of the MVC architecture. I've broken the code into the PHP landing pages for encode, decode, and results as the Views. I have a Controller for each the encoding and the decoding. Then, I have a separate Model for each cipher. All three are in PHP.</p>
+			<p>&nbsp;&nbsp;&nbsp;I made sure to keep the design responsive from the start, and found a few lock &amp; key related images to use as background for a little flavor. Using basic form elements, the user can enter the cipher they want (dropdown list) and enter their plaintext. A button at the top switches the view to a decoder mode. After either side is finished, it lands at a results page, where cipher, key, and finished text are displayed.</p>
+			<p>&nbsp;&nbsp;&nbsp;I've already completed the Caesar Cipher. I admit to being overzealous and trying to encrypt any and all text entered, not just the lowercase letters. This resulted in a lot of wasted time and effort. Once I determined that it was in fact a dead end, I reined myself back in and completed the cipher using the accepted method.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 12th, 2015</h5>
+			<h4>Foursquare/Bitwise:</h4>
+			<p>&nbsp;&nbsp;&nbsp;At the pace I've managed thus far, it seems two ciphers a day is my best speed. I started with the Foursquare today and learned a great deal about how PHP uses string manipulation. It isn't too far removed from JavaScript with only a slight syntactical difference.</p>
+			<p>&nbsp;&nbsp;&nbsp;Bitwise was a blast back to logical math, and far easier to implement than either Foursquare or Caesar. It was even more effective, too. I can encrypt an entire text regardless of how long or how many unusual characters it contains. Only downside is that the key needs to be as long or longer than the text to be encrypted, which makes for a very long key indeed. Easily lost or corrupted.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 13th, 2015</h5>
+			<h4>PlayFair/Keyword:</h4>
+			<p>&nbsp;&nbsp;&nbsp;More string manipulation, and using modularity to get a matrix style from them without breaking things up into complicated double arrays. This took some fancy code work that, by the time I was done, looked rather simple and straight forward. I've been trying to use the principles from the "Pragmatic Programmer" by not repeating code, and breaking up functionality to keep each function performing only one major task. Thus far I've been successful, but there are still many more ciphers to go.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 14th, 2015</h5>
+			<h4>Vigen&egrave;re:</h4>
+			<p>&nbsp;&nbsp;&nbsp;I made a bit of a blunder with Vigen&egrave;re. I started out doing it with the full Vigen&egrave;re table only to later learn there was a straight forward modulus method that both encodes and decodes. Unfortunately this setback left me with only one cipher completed today.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 15th, 2015</h5>
+			<h4>Rail Fence Transposition:</h4>
+			<p>&nbsp;&nbsp;&nbsp;The real trick here was in figuring out how, in code, to read the rails in order. This took me quite some time to figure out a workable method. Enough time that I was only able to get one cipher done today.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>September 26th, 2015</h5>
+			<h4>Hill:</h4>
+			<p>&nbsp;&nbsp;&nbsp;This was a sneaky one, and still is. I managed to work out the encoding half of this, only to discover that the decoding half is going to be a mathamatical nightmare. I need to be able to get the inverse matrix of the key matrix. Part of this process is to get the determinate, which will tell me whether or not the randomly generated key matrix for encoding can be inverted. If it can't, it can't be used for decoding. This may be far more complex to code than the previous ciphers, and will take a while longer to work out.</p>
+		</div>
 	</div>
 </body>
