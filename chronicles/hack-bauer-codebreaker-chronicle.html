@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,IE=11,IE=EmulateIE11,IE=10,IE=EmulateIE10,IE=9,IE=EmulateIE9,IE=8,IE=EmulateIE8,IE=7,IE=EmulateIE7" />
 
-    <title>Chronicle - Hack Bauer: CodeBreaker</title>
+    <title>Chronicle - Hack Bauer: Codebreaker</title>
     <!-- Customized styles by William R.A.D. Funk -->
     <link rel="stylesheet" href="../css/styles.css">
     <!-- Google Open Sans font -->
@@ -15,16 +15,40 @@
 </head>
 <body style="background-color: #ADD5F7;">
 	<div id="container-chronicle">
-		<h1>Hack Bauer: CodeBreaker</h1>
+		<h1>Chronicle - Hack Bauer: Codebreaker</h1>
 		<h6>By: William Robert Funk</h6>
 		<div class="chronicle-entry">
-			<h5>September 30th, 2015</h5>
+			<h5>September 29th, 2015</h5>
 			<h4>Start of project:</h4>
 			<p>&nbsp;&nbsp;&nbsp;This project will incorporate a number of new elements. I intend to create a stealth, first-person POV game that requires the player to collect a certain number of data nodes on each of a number of levels. When finished, they must reach the top floor computer and break a small encryption cipher. All this would be happening under the constraint of a timer, and roaming enemies.</p>
-			<p>&nbsp;&nbsp;&nbsp;Aspects experimented with for the first time: AI algorithms for patrol(), seek(), chase(), flee(), etc. The basics of AI bots. This will be rendered using Three.js. Optional tool will be a new physics engine Cannon.js. I want to avoid the overhead if I can manage without it, but it will depend on how much time and effort a custom collision detector will take to build. I only have 5 days to complete the bulk of the game, and this time constraint will govern many of my design decisions.</p>
-			<p>&nbsp;&nbsp;&nbsp;Another experiment will be the use of simple webworkers for popup modals to illustrate to the player that the scene is loading. This will be used in the very beginning as well as level changes. HUD displays will show a top-down minimap of the player's position on the level as well as that of walls, data nodes, and enemy bots.</p>
-			<p>&nbsp;&nbsp;&nbsp;My main interest will be in the AI bot algorithms. I may need to work with raycasters to judge distance to objects, aid in object avoidance and detection, and pathfinding. I'm aware that many of these elements are a bit </p>
+			<p>&nbsp;&nbsp;&nbsp;Aspects experimented with for the first time: the basics of AI bots. Though, overly simplistic with only idle and chase modes, the guards will hunt the player when he/she moves within a certain range. There will also be two views: top-down in HUD form, and the main first person POV. (All textures are not mine, but collected from free-to-use sources off the web)
+			<p>&nbsp;&nbsp;&nbsp;This game will be rendered using Three.js. I want to try and do everything in this project without a physics engine (reduced lag). I want to avoid the overhead if I can manage without it, but it will depend on how much time and effort a custom collision detector will take to build. I only have 5 days to complete the bulk of the game, and this time constraint will govern many of my design decisions.</p>
 		</div>
-		<hr>
+		<div class="chronicle-entry">
+			<h5>October 2nd, 2015</h5>
+			<h4>A solid issue:</h4>
+			<p>&nbsp;&nbsp;&nbsp;I added a level factory that reads integer values from a two-dimensional array. This makes level creation both simple, and a breeze to customize or edit later. Textures helped add color to the level, and collision detection with the walls makes player corporeal. There appears to be some stick when player makes contact with wall at a certain angle. Will need to fix this.</p>
+			<p>&nbsp;&nbsp;&nbsp;Added some modals to allow for a basic storyline to be fed to the player. This also helps with the load-up lag consistent with Three.js.</p>
+			<p>&nbsp;&nbsp;&nbsp;For the wall-stick issue, I'm going to attempt conditionals that will allow the player to slide when continually running against the wall. Since the collision method is based off of player's intended move either conflicting with a wall coordinate and being negated, or not conflicting and being accepted, I will attempt to test old x for collision with new y and vice versa in these situations.</p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>October 4th, 2015</h5>
+			<h4>Player's purpose:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Made the data disks and created player's ability to collect them. Had trouble at first because it turns out that order matters when popping the array of data disks and removing from the item from the scene. Must remember this in future for all things removed from a Three.js scene.</p>
+			<p>&nbsp;&nbsp;&nbsp;All five levels have been created. They are traversed by player reaching an elevator square. The scene is deconstructed in stages, and repopulated with the new level's material. Certain variables like total disks collected are maintained across level. This method also allows level transition without moving from one page to the next or adding PHP session variables.</p>
+			<p>&nbsp;&nbsp;&nbsp;Major cleanup day. I added a lot of inner documentation, separated js files, readjusted starting camera views at each level, and added additional movement keys. Guards have textures of faces. They look bizarre, but I think it kind of makes them appear creepy. I think I'll keep them in this simplistic state and focus on other matters.</p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>October 6th, 2015</h5>
+			<h4>Let the chase begin:</h4>
+			<p>&nbsp;&nbsp;&nbsp;The guards now have the ability to chase the player. Due to time constraints, I didn't restrict them to wall collisions. This makes them significantly more formidable, a challenge to the player's superior intellect against a dumb AI. Tweaks to the story's explanation of this behavior hopefully continues to suspend disbelief.</p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>October 8th, 2015</h5>
+			<h4>Finishing touches:</h4>
+			<p>&nbsp;&nbsp;&nbsp;The guards now have four separate textures randomly distributed to give them variety. Their movement is no longer jerky, and the page will refresh when the player is caught (hard reset).</p>
+			<p>&nbsp;&nbsp;&nbsp;Finished the HUD to display disks collected, level number, ticking timer, and the key legend. For all intensive purposes the game is complete and playable.</p>
+			<p>&nbsp;&nbsp;&nbsp;That being said, there is still room for improvement. There are two things I would like to fix in the future. The wall-stick issue has persisted despite all attempts to resolve by coordinate manipulation, and the final encryption problem at game's end. When time permits, I will attempt a raycasting solution for the wallsticking problem, and something attainable for the final encryption such as a Ceasar Cipher. To be continued...</p>
+		</div>
 	</div>
 </body>
