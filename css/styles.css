@@ -181,6 +181,15 @@ ol
     padding: 0px;
     width: 100%;
 }
+.dropdown-menu li:hover .sub-menu
+{
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
 .job-history a
 {
     color: #282828;
