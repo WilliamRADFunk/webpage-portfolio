@@ -109,6 +109,10 @@ ol
     text-align: center;
     width: 90%;
 }
+#featured-img
+{
+    margin-top: 5%;
+}
 #mission .btn.btn-danger
 {
     background-color: #99ff99;
