@@ -111,7 +111,7 @@ ol
 }
 #featured-img
 {
-    margin-top: 5%;
+    
 }
 #mission .btn.btn-danger
 {
@@ -127,6 +127,7 @@ ol
 #mission h4
 {
     color: #99ff99;
+    padding-top: 0px;
 }
 #mission p
 {
@@ -386,7 +387,7 @@ ol
     }
     #mission h4
     {
-        padding-top: 20px;
+        padding-top: 0px;
     }
     #mission h5
     {
@@ -482,7 +483,7 @@ ol
     }
     #mission h4
     {
-        padding-top: 10px;
+        padding-top: 0px;
     }
     #mission p
     {
