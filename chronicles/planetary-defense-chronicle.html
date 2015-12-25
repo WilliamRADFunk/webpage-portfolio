@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,IE=11,IE=EmulateIE11,IE=10,IE=EmulateIE10,IE=9,IE=EmulateIE9,IE=8,IE=EmulateIE8,IE=7,IE=EmulateIE7" />
+
+    <title>Chronicle - Planetary Defense</title>
+    <!-- Customized styles by William R.A.D. Funk -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Google Open Sans font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+<body style="background-color: #ADD5F7;">
+	<div id="container-chronicle">
+		<h1>Planetary Defense</h1>
+		<h6>By: William Robert Funk</h6>
+		<div class="chronicle-entry">
+			<h5>November 27th, 2015</h5>
+			<h4>Start of project:</h4>
+			<p>&nbsp;&nbsp;&nbsp;This project is in part an attempt to learn new concepts for later use in my larger (in-progress) game, &quot;Dawn of Emergence&quot;. I have found scalability in JavaScript application-making, especially using ThreeJS, to be dirty. The object-oriented aspects are lost on this loosely-typed language. Global namespace is often polluted, and the code becomes redundant/inefficient after anything that approaches mild complexity.</p>
+			<p>&nbsp;&nbsp;&nbsp;It is my hope to incorporate three concepts into this simple game for learning purposes: using an &quot;object&quot; to contain all of the game's variables and functionality. Within that object, I'd like to break the game apart into other objects to separate them logically. Asteroids, Barriers, etc.</p>
+			<p>&nbsp;&nbsp;&nbsp;There is another component I think it's time to incorporate: the use of AJAX calls to a PHP server that I will setup with the same webhost used for the portfolio site. I want to incorprate basic MySQL queries to create, populate, and select from said database. Though I have had occasion to use SQL dialects, and AJAX calls, it was under previously constructed project conditions. This will be from the ground up.</p>
+			<p>&nbsp;&nbsp;&nbsp;Lastly, I want to incorporate touchscreen capability. Many devices treat a tap like a mouseclick and I've been able to get away with that. However some applications, like games, require more interactivity (dragging). I intend to use touch in this project to simulate the click-hold-and-drag function.</p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>November 27th, 2015</h5>
+			<h4>First pieces:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Set up the basic planet/satellite with three rings of barriers. Normally the math involved in having these orbit around an object would be intense. Luckily, ThreeJS allows me to create an object with the ring's barriers as components. It is this single object that merely rotates around its own center. This is something I learned in &quot;Dawn of Emergence&quot;, a much more complicated three-dimentional rotation.</p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>November 29th, 2015</h5>
+			<h4>Enter antagonist:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Created the antagonists (asteroids) and established a rudimentary collision detection. I wanted to avoid the bloat of a physics engine on a game this simple, and besides, the collision detection I created isn't that costly with the finite number of objects I'm creating.</p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>December 1st, 2015</h5>
+			<h4>Let there be order:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Made the GAME object and populated it with the code I'd already made. This wasn't as straightforward as I originally figured. There are multiple ways to go about it. JavaScript permits the programmer the use of naming a function like a constructor that includes it's own variables and functionality. There is even a Singleton version of this that adds the operator &quot;new&quot;, allowing only one instance. I tried the Singleton version first, but found it to be quite unwieldy. I might as well use a strongly-typed language if I wanted those kinds of headaches. In the end, I went with making an object. The functions and variables became its properties, and since it's loosely-typed, new &quot;sub&quot;-objects could be later added to it. This allows me to group the code in a cleaner fashion.</p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>December 2nd, 2015</h5>
+			<h4>Reach out and touch...a game:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Quite the productive day. I squished some bugs, cleaned up some code, introduced sound FX and added the score display. More important than all that, though, I added touch control right after adding mouse control. Now, the A and D keys move barriers left and right, respectively, while the SPACEBAR changes selected barrier. Each (left) mouse click changes the selected barrier, while holding and dragging in the intended direction will rotate the barrier. Similarly, each touch changes selected barrier, while dragging left or right will rotate the barrier accordingly.</p>
+			<p>&nbsp;&nbsp;&nbsp;Adding touch was remarkably easier than I though it would be. HTML5 has many powerful tools built-in than I was aware were even there. The days of re-inventing the wheel &quot;every&quot; time we want to program may soon be over. I won't hold my breath, though. <span id="chronicle-emoticon"></span></p>
+		</div>
+		<div class="chronicle-entry">
+			<h5>December 7th, 2015</h5>
+			<h4>And...done:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Created the database, made the AJAX calls that put initials and scores into database, and one that selects the top 5 to populate the player's top-5 board. Also, I added a blue repair node that repairs barriers on contact. This will prolong the game experience.</p>
+			<p>&nbsp;&nbsp;&nbsp;There were many headaches here. PHP doesn't naturally like JSON apparently. Something to do with its natural form post/get methods being part of its structure. This required some fancy footwork and obscure StackOverflow searches before I discovered the way to sneak it across the client/server line in a secure way.</p>
+			<p>&nbsp;&nbsp;&nbsp;All goals were met for this project. It's a short little game that permits players to be competitive with each other. Now that it is finished and working, I may consider adding it into &quot;Dawn of Emergence&quot; as a mini-game to spice things up.</p>
+		</div>
+	</div>
+</body>

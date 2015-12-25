@@ -78,6 +78,11 @@ ol
     border: none;
     color: #FFFFFF;
 }
+#chronicle-emoticon::after
+{
+    content: '\1F603';
+    color: #000000;
+}
 #contact p
 {
     margin-top: 20px;
