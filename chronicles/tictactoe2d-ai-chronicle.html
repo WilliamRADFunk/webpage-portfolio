@@ -35,7 +35,7 @@
 			<h5>August 10th, 2015</h5>
 			<h4>Light at the end of the tunnel:</h4>
 			<p>&nbsp;&nbsp;&nbsp;It seems that JavaScript has an issue with recursion and for-loop variables. Somehow the iterator variable in a for-loop called each time the recursive function is called, continues beyond its limit. For example:</p>
-			<p>for(var i = 0; i < 9; i++)</br>{</br>&nbsp;&nbsp;&nbsp;Do something;</br>}</p>
+			<p>for(var i = 0; i &lt; 9; i++)</br>{</br>&nbsp;&nbsp;&nbsp;Do something;</br>}</p>
 			<p>...would normally end when i = 9, right? Apparently not. Using my console.log statements, I was able to discover that i continued to print all the way to 10 over and over again. This created a whole host of undefined results. Not sure how to fix this yet. JavaScript seems to be leaking scope during recursion.</p>
 		</div>
 		<hr>
