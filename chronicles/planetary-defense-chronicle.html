@@ -25,27 +25,32 @@
 			<p>&nbsp;&nbsp;&nbsp;There is another component I think it's time to incorporate: the use of AJAX calls to a PHP server that I will setup with the same webhost used for the portfolio site. I want to incorprate basic MySQL queries to create, populate, and select from said database. Though I have had occasion to use SQL dialects, and AJAX calls, it was under previously constructed project conditions. This will be from the ground up.</p>
 			<p>&nbsp;&nbsp;&nbsp;Lastly, I want to incorporate touchscreen capability. Many devices treat a tap like a mouseclick and I've been able to get away with that. However some applications, like games, require more interactivity (dragging). I intend to use touch in this project to simulate the click-hold-and-drag function.</p>
 		</div>
+		<hr>
 		<div class="chronicle-entry">
 			<h5>November 27th, 2015</h5>
 			<h4>First pieces:</h4>
 			<p>&nbsp;&nbsp;&nbsp;Set up the basic planet/satellite with three rings of barriers. Normally the math involved in having these orbit around an object would be intense. Luckily, ThreeJS allows me to create an object with the ring's barriers as components. It is this single object that merely rotates around its own center. This is something I learned in &quot;Dawn of Emergence&quot;, a much more complicated three-dimentional rotation.</p>
 		</div>
+		<hr>
 		<div class="chronicle-entry">
 			<h5>November 29th, 2015</h5>
 			<h4>Enter antagonist:</h4>
 			<p>&nbsp;&nbsp;&nbsp;Created the antagonists (asteroids) and established a rudimentary collision detection. I wanted to avoid the bloat of a physics engine on a game this simple, and besides, the collision detection I created isn't that costly with the finite number of objects I'm creating.</p>
 		</div>
+		<hr>
 		<div class="chronicle-entry">
 			<h5>December 1st, 2015</h5>
 			<h4>Let there be order:</h4>
 			<p>&nbsp;&nbsp;&nbsp;Made the GAME object and populated it with the code I'd already made. This wasn't as straightforward as I originally figured. There are multiple ways to go about it. JavaScript permits the programmer the use of naming a function like a constructor that includes it's own variables and functionality. There is even a Singleton version of this that adds the operator &quot;new&quot;, allowing only one instance. I tried the Singleton version first, but found it to be quite unwieldy. I might as well use a strongly-typed language if I wanted those kinds of headaches. In the end, I went with making an object. The functions and variables became its properties, and since it's loosely-typed, new &quot;sub&quot;-objects could be later added to it. This allows me to group the code in a cleaner fashion.</p>
 		</div>
+		<hr>
 		<div class="chronicle-entry">
 			<h5>December 2nd, 2015</h5>
 			<h4>Reach out and touch...a game:</h4>
 			<p>&nbsp;&nbsp;&nbsp;Quite the productive day. I squished some bugs, cleaned up some code, introduced sound FX and added the score display. More important than all that, though, I added touch control right after adding mouse control. Now, the A and D keys move barriers left and right, respectively, while the SPACEBAR changes selected barrier. Each (left) mouse click changes the selected barrier, while holding and dragging in the intended direction will rotate the barrier. Similarly, each touch changes selected barrier, while dragging left or right will rotate the barrier accordingly.</p>
 			<p>&nbsp;&nbsp;&nbsp;Adding touch was remarkably easier than I though it would be. HTML5 has many powerful tools built-in than I was aware were even there. The days of re-inventing the wheel &quot;every&quot; time we want to program may soon be over. I won't hold my breath, though. <span id="chronicle-emoticon"></span></p>
 		</div>
+		<hr>
 		<div class="chronicle-entry">
 			<h5>December 7th, 2015</h5>
 			<h4>And...done:</h4>
