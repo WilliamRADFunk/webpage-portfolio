@@ -49,7 +49,7 @@
 			</button>
 		</div>
 		<div class="collapse navbar-collapse" id="collapse">
-			<ul class="nav navbar-nav">
+			<ul id="hamburger-nav" class="nav navbar-nav">
 				<li><a href="#about" onclick="jumpTo()">About</a></li>
 				<li><a href="#applications" onclick="jumpTo()">Applications</a></li>
 				<li class="dropdown"><a href="#" data-toggle="dropdown">Code <span class="caret"></span></a>
@@ -110,8 +110,8 @@
 	</div>
 	<div class="panel-group" id="accordion-applications">
 		<div class="panel panel-default">
-			<div class="panel-heading">
-				<a class="panel-title">
+			<div id="planetary-defense-header" class="panel-heading">
+				<a class="panel-title" onclick="setPanelToTop('planetary-defense-header')">
 					<h3 href="#planetary-defense" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-applications">Planetary Defense</h3>
 				</a>
 			</div>
