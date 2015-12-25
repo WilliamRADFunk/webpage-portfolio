@@ -19,12 +19,13 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/respond.min.js"></script>
-
+    <!-- Custom Scripts -->
+    <script async src="js/scripts.js"></script>
 </head>
 
 <body>
 <div id="portfolio" class="container">
-	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+	<nav id="main-nav" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="row row-header">
 			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 				<img src="images/logo_WRFunk.png" alt="W.R.FUNK" class="img-responsive">
@@ -49,8 +50,8 @@
 		</div>
 		<div class="collapse navbar-collapse" id="collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="#about">About</a></li>
-				<li><a href="#applications">Applications</a></li>
+				<li><a href="#about" onclick="jumpTo()">About</a></li>
+				<li><a href="#applications" onclick="jumpTo()">Applications</a></li>
 				<li class="dropdown"><a href="#" data-toggle="dropdown">Code <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="http://www.williamrobertfunk.com/applications/planetary-defense/index.html" target="_blank">Planetary Defense</a></li>
@@ -65,7 +66,7 @@
 						<li><a href="http://www.williamrobertfunk.com/applications/cinema-guru/CinemaGuru.zip">Cinema-Guru</a></li>
 					</ul>
 				</li>
-				<li><a href="#work">Work Experience</a></li>
+				<li><a href="#work" onclick="jumpTo()">Work Experience</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
