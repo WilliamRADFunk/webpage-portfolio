@@ -54,5 +54,12 @@
 			<p>&nbsp;&nbsp;&nbsp;Finished the HUD to display disks collected, level number, ticking timer, and the key legend. For all intensive purposes the game is complete and playable.</p>
 			<p>&nbsp;&nbsp;&nbsp;That being said, there is still room for improvement. There are two things I would like to fix in the future. The wall-stick issue has persisted despite all attempts to resolve by coordinate manipulation, and the final encryption problem at game's end. When time permits, I will attempt a raycasting solution for the wallsticking problem, and something attainable for the final encryption such as a Ceasar Cipher. To be continued...</p>
 		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>December 27th, 2015</h5>
+			<h4>Spring cleaning:</h4>
+			<p>&nbsp;&nbsp;&nbsp;Now that I finally have some free time I was able to create an inelegant solution to the wall stickiness problem whenever the player tries to walk into a wall at an angle. Now the player slides along until the wall is no longer obstructing them. The solution checks all four directions one small increment at a time until the first non-obstruction combination presents itself.</p>
+			<p>&nbsp;&nbsp;&nbsp;This solution works for this game. I'm satisfied that it suffices for what I had intended with it. However, I will need to learn how typical physics engines determine their collision detection. There must be a more elegant way than a series of if-else statements and for-loops.</p>
+		</div>
 	</div>
 </body>
