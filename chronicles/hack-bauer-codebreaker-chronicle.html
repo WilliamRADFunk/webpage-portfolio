@@ -52,7 +52,7 @@
 			<h4>Finishing touches:</h4>
 			<p>&nbsp;&nbsp;&nbsp;The guards now have four separate textures randomly distributed to give them variety. Their movement is no longer jerky, and the page will refresh when the player is caught (hard reset).</p>
 			<p>&nbsp;&nbsp;&nbsp;Finished the HUD to display disks collected, level number, ticking timer, and the key legend. For all intensive purposes the game is complete and playable.</p>
-			<p>&nbsp;&nbsp;&nbsp;That being said, there is still room for improvement. There are two things I would like to fix in the future. The wall-stick issue has persisted despite all attempts to resolve by coordinate manipulation, and the final encryption problem at game's end. When time permits, I will attempt a raycasting solution for the wallsticking problem, and something attainable for the final encryption such as a Ceasar Cipher. To be continued...</p>
+			<p>&nbsp;&nbsp;&nbsp;That being said, there is still room for improvement. There are two things I would like to fix in the future. The wall-stick issue has persisted despite all attempts to resolve by coordinate manipulation, and the final encryption problem at game's end. When time permits, I will fix the wallsticking problem, and something attainable for the final encryption. To be continued...</p>
 		</div>
 		<hr>
 		<div class="chronicle-entry">
@@ -60,6 +60,13 @@
 			<h4>Spring cleaning:</h4>
 			<p>&nbsp;&nbsp;&nbsp;Now that I finally have some free time I was able to create an inelegant solution to the wall stickiness problem whenever the player tries to walk into a wall at an angle. Now the player slides along until the wall is no longer obstructing them. The solution checks all four directions one small increment at a time until the first non-obstruction combination presents itself.</p>
 			<p>&nbsp;&nbsp;&nbsp;This solution works for this game. I'm satisfied that it suffices for what I had intended with it. However, I will need to learn how typical physics engines determine their collision detection. There must be a more elegant way than a series of if-else statements and for-loops.</p>
+		</div>
+		<hr>
+		<div class="chronicle-entry">
+			<h5>December 31st, 2015</h5>
+			<h4>Finally complete:</h4>
+			<p>&nbsp;&nbsp;&nbsp;I completed the final encryption mini-challenge at the end of the game. I shied away from actual encryptions as I realized the average player may know very little about encryptions or how to crack them with paper and pencil. I went with a more down-to-earth solution that involves ten words (eight characters in length) chosen at random, but still similar to each other. One of these words is the correct answer. Dependent on the number of disks the player collected along the way will give them some--again, chosen at random--of the letters from the password. More disks equals an easier guess.</p>
+			<p>&nbsp;&nbsp;&nbsp;This concludes the items I had intended for this game. In later applications, I will strive for more complex gameplay. For now, however, I am satisfied with complete and playable.</p>
 		</div>
 	</div>
 </body>
