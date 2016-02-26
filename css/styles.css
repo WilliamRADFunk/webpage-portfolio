@@ -65,14 +65,14 @@ img
 }
 ol
 {
-    background-color: #ADD5F7;
+    background-color: none;
 }
-#accordion-applications .btn.btn-danger
+#accordion-projects .btn.btn-danger
 {
     background-color: #74b2f0;
     border: none;
 }
-#accordion-applications .btn.btn-danger:hover
+#accordion-projects .btn.btn-danger:hover
 {
     background-color: #3F7EA6;
     border: none;
@@ -148,7 +148,8 @@ ol
 }
 .carousel-indicators
 {
-    display: none;
+    background-color: none;
+    display: circle;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
 .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
