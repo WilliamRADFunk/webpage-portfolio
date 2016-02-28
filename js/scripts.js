@@ -19,6 +19,8 @@ function setPanelToTop(elem)
 		window.scrollBy(0, offset.top);
 		jumpTo();
 	}, 400);
+	var carousel = document.getElementById(elem.replace('header', 'carousel'));
+	$('#' + elem.replace('header', 'carousel')).carousel('cycle');
 }
 function changeActiveListElem(elem)
 {
@@ -32,7 +34,14 @@ function changeActiveListElem(elem)
 		children[i].classList.remove('active');
 	}
 	children[elem].classList.add('active');
-	if(elem < children.length-2) fillCategory(children[elem].children[0].innerHTML.toLowerCase());
+	console.log(elem, children.length);
+	if(elem <= children.length-2)
+	{
+		var lowercase = children[elem].children[0].innerHTML.toLowerCase();
+		console.log(lowercase, lowercase.replace('-', ''));
+		fillCategory(lowercase.replace('-', ''));
+	}
+
 }
 function fillCategory(cat)
 {
