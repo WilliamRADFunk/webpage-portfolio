@@ -640,6 +640,7 @@ categories.applications.encryptorApp = "" +
 							"<li data-target='#the-cabal-effect-carousel' data-slide-to='4'></li>" +
 							"<li data-target='#the-cabal-effect-carousel' data-slide-to='5'></li>" +
 							"<li data-target='#the-cabal-effect-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#the-cabal-effect-carousel' data-slide-to='7'></li>" +
 						"</ol>" +
 						"<!-- Wrapper for slides -->" +
 						"<div class='carousel-inner' role='listbox'>" +
@@ -663,6 +664,9 @@ categories.applications.encryptorApp = "" +
 							"</div>" +
 							"<div class='item'>" +
 								"<img src='images/the-cabal-effect-screenshots-07.jpg' alt='The Cabal Effect - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/the-cabal-effect-screenshots-08.jpg' alt='The Cabal Effect - Screenshot' class='img-responsive img-rounded centered'>" +
 							"</div>" +
 						"</div>" +
 					"</div>" +
@@ -721,9 +725,6 @@ categories.frontend.contentAlertFrontEnd = "" +
 							"</div>" +
 							"<div class='item'>" +
 								"<img src='images/content-alert-screenshots-06.jpg' alt='Content Alert - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/content-alert-screenshots-07.jpg' alt='Content Alert - Screenshot' class='img-responsive img-rounded centered'>" +
 							"</div>" +
 						"</div>" +
 					"</div>" +
