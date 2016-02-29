@@ -619,7 +619,130 @@ categories.applications.encryptorApp = "" +
 		"</div>" +
 	"</div>";
 
-	categories.frontend.theCabalEffectFrontEnd = "" +
+categories.applications.fakeBankApp = "" +
+	"<div id='fake-bank-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"fake-bank-header\")'>" +
+			"<h3 href='#fake-bank' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Fake Bank</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='fake-bank' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='fake-bank-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#fake-bank-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#fake-bank-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#fake-bank-carousel' data-slide-to='2'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/fake-bank-screenshots-01.jpg' alt='Fake Bank - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/fake-bank-screenshots-02.jpg' alt='Fake Bank - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/fake-bank-screenshots-03.jpg' alt='Fake Bank - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Fake Bank <span>(02/2016)</span></h4>" +
+					"<h5>-- Java, JavaFX, Scene Builder 2.0,, &amp; Multithreading --</h5>" +
+					"<p>A simple GUI using Java's FXML, Scene Builder 2.0, and a 'Lock' to make program thread-safe.</p>" +
+					"<p>It's a demonstration of multi-threaded programming using a variable number of competing deposit and withdrawal threads to simulate a bank account.</p>" +
+					"<a href='http://www.williamrobertfunk.com/applications/fake-bank/Fake_Bank.zip' class='btn btn-danger'>Click to use this application <span class='glyphicon glyphicon-download-alt'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.applications.bookstoreApp = "" +
+	"<div id='bookstore-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"bookstore-header\")'>" +
+			"<h3 href='#bookstore' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Bookstore</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='bookstore' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='bookstore-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='10'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='11'></li>" +
+							"<li data-target='#bookstore-carousel' data-slide-to='12'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/bookstore-screenshots-01.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-02.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-03.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-05.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-06.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-07.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-08.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-09.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-10.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-11.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-12.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/bookstore-screenshots-13.jpg' alt='Bookstore - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Bookstore <span>(01/2016)</span></h4>" +
+					"<h5>-- Java, JavaFX, &amp; Scene Builder 2.0 --</h5>" +
+					"<p>A simple GUI using Java's FXML, Scene Builder 2.0, and basic file read/write.</p>" +
+					"<p>It's a simulation of a book purchasing interface, where user enters in a book's code, along with quantity. A transaction record is created with all orders.</p>" +
+					"<a href='http://www.williamrobertfunk.com/applications/bookstore/Bookstore.zip' class='btn btn-danger'>Click to use this application <span class='glyphicon glyphicon-download-alt'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.frontend.theCabalEffectFrontEnd = "" +
 	"<div id='the-cabal-effect-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"the-cabal-effect-header\")'>" +
 			"<h3 href='#the-cabal-effect' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>The Cabal Effect</h3>" +
@@ -726,6 +849,9 @@ categories.frontend.contentAlertFrontEnd = "" +
 							"<div class='item'>" +
 								"<img src='images/content-alert-screenshots-06.jpg' alt='Content Alert - Screenshot' class='img-responsive img-rounded centered'>" +
 							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/content-alert-screenshots-07.jpg' alt='Content Alert - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
 						"</div>" +
 					"</div>" +
 				"</div>" +
@@ -734,6 +860,169 @@ categories.frontend.contentAlertFrontEnd = "" +
 					"<h5>-- HTML5, CSS, &amp; JavaScript --</h5>" +
 					"<p>Contracted to build the front-end for an email-filtering application</p>" +
 					"<a href='http://www.contentalert.com' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.fullstack.twoTieredClientServerFullStack = "" +
+	"<div id='two-tiered_client-server-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"two-tiered_client-server-header\")'>" +
+			"<h3 href='#two-tiered_client-server' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Two-Tiered Client-Server Application</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='two-tiered_client-server' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='two-tiered_client-server-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='10'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='11'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='12'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='13'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='14'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='15'></li>" +
+							"<li data-target='#two-tiered_client-server-carousel' data-slide-to='16'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/two-tiered-client-server-screenshots_01.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-02.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-03.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-05.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-06.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-07.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-08.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-09.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-10.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-11.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-12.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-13.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-14.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-15.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-16.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/two-tiered-client-server-screenshots-17.jpg' alt='Two-Tiered Client-Server Application - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Two-Tiered Client-Server Application <span>(02/2016)</span></h4>" +
+					"<h5>-- Java, JavaFX, Scene Builder 2.0, &amp; MySQL --</h5>" +
+					"<p>Small Java application (GUI) demonstrating connectivity to a MySQL database.</p>" +
+					"<p>An interface that allows all CRUD operations to and from a client-side MySQL server.</p>" +
+					"<a href='http://www.williamrobertfunk.com/applications/two-tier_client-server_application/Two-Tiered_Client-Server_Application.zip' class='btn btn-danger'>Click to use this application <span class='glyphicon glyphicon-download-alt'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.fullstack.financialTrackingRepositoryFullStack = "" +
+	"<div id='financial-tracking-repository-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"financial-tracking-repository-header\")'>" +
+			"<h3 href='#financial-tracking-repository' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Financial Tracking Repository</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='financial-tracking-repository' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='financial-tracking-repository-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#financial-tracking-repository-carousel' data-slide-to='8'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/financial-tracking-repository-screenshots-01.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-02.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-03.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-04.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-05.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-06.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-07.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-08.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/financial-tracking-repository-screenshots-09.jpg' alt='Financial Tracking Repository - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Financial Tracking Repository <span>(12/2015)</span></h4>" +
+					"<h5>-- HTML5, CSS, JavaScript, &amp; ReactJS --</h5>" +
+					"<p>Built for the purpose of keeping track of my own finances, and a desire to practice my knowledge of the ReactJS framework.</p>" +
+					"<p>Uses a typical HTML5, CSS, and JavaScript (some use of JQuery) for the front-end, AJAX to communciate with the back-end, PHP as the back-end data layer, and an SQL database.</p>" +
+					"<a href='http://www.williamrobertfunk.com/applications/financial-tracking-repository/' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +

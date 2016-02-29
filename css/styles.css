@@ -265,6 +265,15 @@ ol
 {
     color: #f2f2f2;
 }
+.nav-tabs
+{
+    margin-top: 10px;
+}
+.nav-tabs > li > a
+{
+    color: #74B2F0;
+    font-weight: bold;
+}
 .panel
 {
     border: none;
@@ -730,6 +739,12 @@ ol
         font-size: 13.5px;
         line-height: 18px;
         margin: 15px 0px;
+    }
+    .nav-tabs > li > a
+    {
+        color: #74B2F0;
+        font-size: 10px;
+        font-weight: bold;
     }
     .panel-default > .panel-heading h3
     {

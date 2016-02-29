@@ -34,11 +34,9 @@ function changeActiveListElem(elem)
 		children[i].classList.remove('active');
 	}
 	children[elem].classList.add('active');
-	console.log(elem, children.length);
-	if(elem <= children.length-2)
+	if(elem <= children.length-1)
 	{
 		var lowercase = children[elem].children[0].innerHTML.toLowerCase();
-		console.log(lowercase, lowercase.replace('-', ''));
 		fillCategory(lowercase.replace('-', ''));
 	}
 
