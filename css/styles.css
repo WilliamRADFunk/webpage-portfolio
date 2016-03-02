@@ -797,4 +797,10 @@ ol
     {
         padding-left: 10px;
     }
+    .nav-tabs > li > a
+    {
+        color: #74B2F0;
+        font-weight: bold;
+        padding: 10px 7px;
+    }
 }
