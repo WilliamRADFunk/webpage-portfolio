@@ -464,17 +464,14 @@ ol
     }
     .row-header a
     {
-        float: right;
+        float: left;
         font-size: 14px;
+        line-height: 34px;
         margin: 50px 5px 0px 0px;
     }
     .row-header img
     {
         margin-right: 5px;
-    }
-    .row-header p
-    {
-        margin: 60px 0px 0px 0px;
     }
 }
 @media (max-width: 1199px) {
@@ -560,17 +557,18 @@ ol
     }
     .row-header a
     {
-        float: right;
+        float: left;
         font-size: 14px;
+        line-height: 34px;
         margin: 50px 5px 0px 0px;
     }
     .row-header img
     {
         margin-right: 5px;
     }
-    .row-header p
+    .top-spacer
     {
-        margin: 60px 0px 0px 0px;
+        height: 150px;
     }
 }
 @media (max-width: 991px) {
@@ -660,20 +658,16 @@ ol
     {
         float: left;
         font-size: 12px;
-        line-height: 16px;
+        line-height: 34px;
         margin: 0px;
     }
     .row-header img
     {
         margin-right: 5px;
     }
-    .row-header p
-    {
-        margin: 10px 0px;
-    }
     .top-spacer
     {
-        height: 115px;
+        height: 70px;
     }
 }
 @media (max-width: 767px) {
@@ -762,10 +756,10 @@ ol
     {
         font-size: 14px;
     }
-    .pdf
+    #git-logo,
+    #pdf-logo
     {
-        margin-right: 10px;
-        padding-left: 45px;
+        line-height: 34px !important;
     }
     .row-header a
     {
@@ -778,12 +772,23 @@ ol
     {
         margin-right: 5px;
     }
-    .row-header p
-    {
-        margin: 10px 0px;
-    }
     .top-spacer
     {
-        height: 115px;
+        height: 85px;
+    }
+}
+@media (max-width: 540px) {
+    #pdf-logo,
+    #git-logo
+    {
+        line-height: 16px !important;
+    }
+    #git-logo img
+    {
+        padding-left: 5px;
+    }
+    #pdf-logo img
+    {
+        padding-left: 10px;
     }
 }
