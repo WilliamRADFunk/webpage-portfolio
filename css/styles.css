@@ -267,6 +267,7 @@ ol
 }
 .nav-tabs
 {
+    border-bottom: none;
     margin-top: 10px;
 }
 .nav-tabs > li > a
@@ -293,6 +294,11 @@ ol
 .panel-heading
 {
     padding: 0px;
+}
+.panel-default > .panel-heading:first-child
+{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 .panel-default > .panel-heading:hover
 {
