@@ -964,7 +964,7 @@ categories.fullstack.twoTieredClientServerFullStack = "" +
 categories.fullstack.financialTrackingRepositoryFullStack = "" +
 	"<div id='financial-tracking-repository-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"financial-tracking-repository-header\")'>" +
-			"<h3 href='#financial-tracking-repository' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Financial Tracking Repository</h3>" +
+			"<h3 href='#financial-tracking-repository' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Financial Tracking Repository (in-progress)</h3>" +
 		"</a>" +
 	"</div>" +
 	"<div id='financial-tracking-repository' class='panel-collapse collapse'>" +
