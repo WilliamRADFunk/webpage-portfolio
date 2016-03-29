@@ -9,7 +9,7 @@ var categories =
 	frontend: {key: function(n) {
         return this[Object.keys(this)[n]];
     }},
-	fullstack: {key: function(n) {
+	frontandback: {key: function(n) {
         return this[Object.keys(this)[n]];
     }}
 };
@@ -865,7 +865,7 @@ categories.frontend.contentAlertFrontEnd = "" +
 		"</div>" +
 	"</div>";
 
-categories.fullstack.twoTieredClientServerFullStack = "" +
+categories.frontandback.twoTieredClientServerFrontAndBack = "" +
 	"<div id='two-tiered_client-server-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"two-tiered_client-server-header\")'>" +
 			"<h3 href='#two-tiered_client-server' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Two-Tiered Client-Server Application</h3>" +
@@ -961,7 +961,7 @@ categories.fullstack.twoTieredClientServerFullStack = "" +
 		"</div>" +
 	"</div>";
 
-categories.fullstack.financialTrackingRepositoryFullStack = "" +
+categories.frontandback.financialTrackingRepositoryFrontAndBack = "" +
 	"<div id='financial-tracking-repository-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"financial-tracking-repository-header\")'>" +
 			"<h3 href='#financial-tracking-repository' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Financial Tracking Repository (in-progress)</h3>" +

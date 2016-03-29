@@ -34,12 +34,7 @@ function changeActiveListElem(elem)
 		children[i].classList.remove('active');
 	}
 	children[elem].classList.add('active');
-	if(elem <= children.length-1)
-	{
-		var lowercase = children[elem].children[0].innerHTML.toLowerCase();
-		fillCategory(lowercase.replace('-', ''));
-	}
-
+	if(elem <= children.length-1) fillCategory(children[elem].children[0].getAttribute('value'));
 }
 function fillCategory(cat)
 {
