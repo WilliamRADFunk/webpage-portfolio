@@ -742,6 +742,114 @@ categories.applications.bookstoreApp = "" +
 		"</div>" +
 	"</div>";
 
+categories.frontend.phoodBuddyFrontEnd = "" +
+	"<div id='phood-buddy-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"phood-buddy-header\")'>" +
+			"<h3 href='#phood-buddy' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Phood Buddy</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='phood-buddy' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='phood-buddy-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='7'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/phood-buddy-screenshots-01.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-02.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-03.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-04.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-05.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-06.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-07.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-08.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-09.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-10.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-11.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-12.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-13.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-14.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-15.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-16.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-17.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-18.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-19.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-20.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-21.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-22.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Phood Buddy <span>(05/2016)</span></h4>" +
+					"<h5>-- HTML5, CSS, JavaScript, &amp; Firebase --</h5>" +
+						"<p>An exploration into the use of Firebase as a backend for a webapp, merged with a desire to solve the age old question: " + 
+						"\"What should I eat tonight\" and the apathetic response that can sometimes follow. Phood Buddy not only suggests any of hundreds recipes, " +
+						"it takes it to the next level by catering to user's tastes, avoiding allergies and health conditions, as well as assisting with meal tracking, " +
+						"exercise, and the groceries. Even available deals offered on ingrdients in your list. My portion focused on frontend for the desktop version. " +
+						"Many of the backend services were never completed, leaving only this pure Javascript client-side.</p>" +
+					"<a href='https://phood-buddy.com' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.frontend.theCabalEffectFrontEnd = "" +
 	"<div id='the-cabal-effect-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"the-cabal-effect-header\")'>" +
