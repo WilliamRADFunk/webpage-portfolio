@@ -13,6 +13,73 @@ var categories =
         return this[Object.keys(this)[n]];
     }}
 };
+categories.games.galacticFighterGame = "" + 
+	"<div id='galactic-fighter-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"galactic-fighter-header\")'>" +
+			"<h3 href='#galactic-fighter' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Galactic Fighter</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='galactic-fighter' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='galactic-fighter-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='9'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/galactic-fighter-screenshots-01.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-02.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-03.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-04.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-05.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-06.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-07.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-08.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Galactic Fighter <span>(08/2017)</span></h4>" +
+					"<h5>-- HTML, JavaScript, PHP, AJAX, &amp; MySQL --</h5>" +
+					"<p>Only you stand in the way of Earth's complete annihilation. Alien hordes have sent an armada to wipe humanity " +
+					"from the galaxy; warships and massive asteroids hurdle toward our lonely planet. Stop them before it's too late! " +
+					"An homage to the old arcade game, Galaga, Galactic Fighter adds more threats and better freedom of movement than its " +
+					"predecessor. Test your skills against that of other players and climb the leadership board.</p>" +
+					"<a href='https://tenacious-teal.itch.io/galactic-fighter' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.games.planetDefenseGame = "" + 
 	"<div id='planetary-defense-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"planetary-defense-header\")'>" +
