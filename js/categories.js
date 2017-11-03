@@ -13,6 +13,86 @@ var categories =
         return this[Object.keys(this)[n]];
     }}
 };
+categories.games.stayInTheLightGame = "" + 
+	"<div id='stay-in-the-light-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"stay-in-the-light-header\")'>" +
+			"<h3 href='#stay-in-the-light' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Stay in the Light</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='stay-in-the-light' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='stay-in-the-light-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='11'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/stay-in-the-light-screenshots-01.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-02.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-03.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-04.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-05.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-06.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-07.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-08.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-09.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-10.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-11.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-12.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Stay in the Light <span>(11/2017)</span></h4>" +
+					"<h5>-- HTML, JavaScript, PIXI, PHP, AJAX, &amp; MySQL --</h5>" +
+					"<p>A classic light vs dark race to conquer the map with a shout back to the days of pixelated graphics. Player moves from tile " +
+					"to tile spreading 'Light' while enemy units scurry to spread the darkness. Only when completely encompassing an enemy unit in light " +
+					"can they be killed, and only when the light has been turned entirely light can there be victory. Higher difficulties in quicker time " +
+					"wins better scores. Compete with others for the top.</p>" +
+					"<a href='https://tenaciousteal.com/games/stay-in-the-light/' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.games.galacticFighterGame = "" + 
 	"<div id='galactic-fighter-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"galactic-fighter-header\")'>" +
@@ -35,8 +115,6 @@ categories.games.galacticFighterGame = "" +
 							"<li data-target='#galactic-fighter-carousel' data-slide-to='5'></li>" +
 							"<li data-target='#galactic-fighter-carousel' data-slide-to='6'></li>" +
 							"<li data-target='#galactic-fighter-carousel' data-slide-to='7'></li>" +
-							"<li data-target='#galactic-fighter-carousel' data-slide-to='8'></li>" +
-							"<li data-target='#galactic-fighter-carousel' data-slide-to='9'></li>" +
 						"</ol>" +
 						"<!-- Wrapper for slides -->" +
 						"<div class='carousel-inner' role='listbox'>" +
@@ -831,6 +909,20 @@ categories.frontend.phoodBuddyFrontEnd = "" +
 							"<li data-target='#phood-buddy-carousel' data-slide-to='5'></li>" +
 							"<li data-target='#phood-buddy-carousel' data-slide-to='6'></li>" +
 							"<li data-target='#phood-buddy-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='10'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='11'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='12'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='13'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='14'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='15'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='16'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='17'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='18'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='19'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='20'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='21'></li>" +
 						"</ol>" +
 						"<!-- Wrapper for slides -->" +
 						"<div class='carousel-inner' role='listbox'>" +
