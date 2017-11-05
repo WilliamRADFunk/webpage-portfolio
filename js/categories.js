@@ -11,6 +11,9 @@ var categories =
     }},
 	frontandback: {key: function(n) {
         return this[Object.keys(this)[n]];
+    }},
+	vrar: {key: function(n) {
+        return this[Object.keys(this)[n]];
     }}
 };
 categories.games.stayInTheLightGame = "" + 
@@ -799,83 +802,6 @@ categories.games.cinemaGuruGame = "" +
 		"</div>" +
 	"</div>";
 
-categories.applications.vedicApp = "" +
-	"<div id='vedic-header' class='panel-heading'>" +
-		"<a class='panel-title' onclick='setPanelToTop(\"vedic-header\")'>" +
-			"<h3 href='#vedic' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>V.E.D.I.C.</h3>" +
-		"</a>" +
-	"</div>" +
-	"<div id='vedic' class='panel-collapse collapse'>" +
-		"<div class='panel-body'>" +
-			"<div class='row row-body'>" +
-				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
-					"<!-- Carousel for screenshots -->" +
-					"<div id='vedic-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
-						"<!-- Indicators -->" +
-						"<ol class='carousel-indicators'>" +
-							"<li data-target='#vedic-carousel' data-slide-to='0' class='active'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='1'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='2'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='3'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='4'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='5'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='6'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='7'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='8'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='9'></li>" +
-							"<li data-target='#vedic-carousel' data-slide-to='10'></li>" +
-						"</ol>" +
-						"<!-- Wrapper for slides -->" +
-						"<div class='carousel-inner' role='listbox'>" +
-							"<div class='item active'>" +
-								"<img src='images/vedic-screenshots-01.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-02.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-03.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-04.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-05.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-06.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-07.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-08.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-09.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-10.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-							"<div class='item'>" +
-								"<img src='images/vedic-screenshots-11.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
-							"</div>" +
-						"</div>" +
-					"</div>" +
-				"</div>" +
-				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
-					"<h4>V.E.D.I.C. <span>(12/2016)</span></h4>" +
-					"<h5>-- Virtual Reality, Oculus DK2, Leap Motion, C#, PHP, MySQL, &amp; Unity --</h5>" +
-					"<p>Virtual Environment for Developing Interactive Code</br>A data-structure analytical tool for databases; primarily MySQL for " +
-					"the initial prototype. This is able to virtually model a MySQL database (local or remote). This program can perform the complete CRUD " +
-					"spectrum (Create, Read, Update, and Delete), as well as perform various analysis of the database itself. Its modular design allows " +
-					"for additional analytics to be added over time.</p>" +
-					"<a href='http://www.vedicode.com/' class='btn btn-danger'>Click to see more <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
-				"</div>" +
-			"</div>" +
-		"</div>" +
-	"</div>";
-
 categories.applications.TrigDriverApp = "" +
 	"<div id='trig-driver-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"trig-driver-header\")'>" +
@@ -1495,6 +1421,159 @@ categories.frontandback.financialTrackingRepositoryFrontAndBack = "" +
 					"<p>Built for the purpose of keeping track of my own finances, and a desire to practice my knowledge of the ReactJS framework.</p>" +
 					"<p>Uses a typical HTML5, CSS, and JavaScript (some use of JQuery) for the front-end, AJAX to communciate with the back-end, PHP as the back-end data layer, and an SQL database.</p>" +
 					"<a href='http://www.williamrobertfunk.com/applications/financial-tracking-repository/' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.vrar.hospitalSimVrAr = "" +
+	"<div id='hospital-sim-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"hospital-sim-header\")'>" +
+			"<h3 href='#hospital-sim' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Hospital Simulator (Prototype)</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='hospital-sim' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='hospital-sim-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='10'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/hospital-sim-screenshots-01.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-02.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-03.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-04.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-05.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-06.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-07.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-08.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-09.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-10.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-11.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Hospital Simulator <span>(02/2017)</span></h4>" +
+					"<h5>-- Virtual Reality, A-Frame, &amp; Javascript --</h5>" +
+					"<p>Virtual Environment application (prototype) for students in the medical administration field to build a pseudo-realistic simulation environment before " +
+					"spending time and resources in building a real world equivalent of that simulation. It's a <i>virtual</i> simulation of a <i>real</i> simulation.</br></br>" +
+					"Note: My contribution ended with the protoype. It has been improved signifanctly by my former co-workers. Check it out!</p>" +
+					"<a href='https://materia.ucf.edu/widgets/94-nursing-simulation-builder/demo' class='btn btn-danger'>Click to use application <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.vrar.vedicVrAr = "" +
+	"<div id='vedic-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"vedic-header\")'>" +
+			"<h3 href='#vedic' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>V.E.D.I.C.</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='vedic' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='vedic-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#vedic-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='10'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/vedic-screenshots-01.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-02.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-03.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-04.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-05.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-06.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-07.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-08.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-09.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-10.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-11.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>V.E.D.I.C. <span>(12/2016)</span></h4>" +
+					"<h5>-- Virtual Reality, Oculus DK2, Leap Motion, C#, PHP, MySQL, &amp; Unity --</h5>" +
+					"<p>Virtual Environment for Developing Interactive Code</br>A data-structure analytical tool for databases; primarily MySQL for " +
+					"the initial prototype. This is able to virtually model a MySQL database (local or remote). This program can perform the complete CRUD " +
+					"spectrum (Create, Read, Update, and Delete), as well as perform various analysis of the database itself. Its modular design allows " +
+					"for additional analytics to be added over time.</p>" +
+					"<a href='http://www.vedicode.com/' class='btn btn-danger'>Click to see more <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +
