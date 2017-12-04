@@ -161,6 +161,97 @@ categories.games.galacticFighterGame = "" +
 		"</div>" +
 	"</div>";
 
+categories.games.cinemaTycoonGame = "" + 
+	"<div id='cinema-tycoon-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"cinema-tycoon-header\")'>" +
+			"<h3 href='#cinema-tycoon' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Cinema Tycoon</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='cinema-tycoon' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='cinema-tycoon-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='11'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='12'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='13'></li>" +
+							"<li data-target='#cinema-tycoon-carousel' data-slide-to='14'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/cinema-tycoon-screenshots-01.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-02.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-03.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-04.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-05.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-06.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-07.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-08.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-09.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-10.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-11.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-12.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-13.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-14.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/cinema-tycoon-screenshots-15.png' alt='Cinema Tycoon - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Cinema Tycoon <span>(12/2016)</span></h4>" +
+					"<h5>-- AngularJS, JavaScript, PHP, HTML, &amp; MySQL --</h5>" +
+					"<p>A movie theater simulator game. Manage your resources and build a prosperous cinema, playing movies produced by other players. " +
+					"Make enough money and produce your own movie ideas that other players will see in their cinemas. Take care as random events can be " +
+					"the source of great cost or great profit.</p>" +
+					"<a href='https://tenaciousteal.com/games/cinema-tycoon/' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.games.horseshoeSweepstakesGame = "" + 
 	"<div id='horseshoe-sweepstakes-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"horseshoe-sweepstakes-header\")'>" +
