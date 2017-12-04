@@ -11,8 +11,285 @@ var categories =
     }},
 	frontandback: {key: function(n) {
         return this[Object.keys(this)[n]];
+    }},
+	vrar: {key: function(n) {
+        return this[Object.keys(this)[n]];
     }}
 };
+categories.games.stayInTheLightGame = "" + 
+	"<div id='stay-in-the-light-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"stay-in-the-light-header\")'>" +
+			"<h3 href='#stay-in-the-light' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Stay in the Light</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='stay-in-the-light' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='stay-in-the-light-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='11'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/stay-in-the-light-screenshots-01.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-02.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-03.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-04.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-05.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-06.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-07.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-08.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-09.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-10.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-11.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/stay-in-the-light-screenshots-12.jpg' alt='Stay in the Light - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Stay in the Light <span>(11/2017)</span></h4>" +
+					"<h5>-- HTML, JavaScript, PIXI, PHP, AJAX, &amp; MySQL --</h5>" +
+					"<p>A classic light vs dark race to conquer the map with a shout back to the days of pixelated graphics. Player moves from tile " +
+					"to tile spreading 'Light' while enemy units scurry to spread the darkness. Only when completely encompassing an enemy unit in light " +
+					"can they be killed, and only when the light has been turned entirely light can there be victory. Higher difficulties in quicker time " +
+					"wins better scores. Compete with others for the top.</p>" +
+					"<a href='https://tenaciousteal.com/games/stay-in-the-light/' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.games.galacticFighterGame = "" + 
+	"<div id='galactic-fighter-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"galactic-fighter-header\")'>" +
+			"<h3 href='#galactic-fighter' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Galactic Fighter</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='galactic-fighter' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='galactic-fighter-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#galactic-fighter-carousel' data-slide-to='7'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/galactic-fighter-screenshots-01.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-02.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-03.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-04.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-05.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-06.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-07.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/galactic-fighter-screenshots-08.jpg' alt='Galactic Fighter - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Galactic Fighter <span>(08/2017)</span></h4>" +
+					"<h5>-- HTML, JavaScript, PHP, AJAX, &amp; MySQL --</h5>" +
+					"<p>Only you stand in the way of Earth's complete annihilation. Alien hordes have sent an armada to wipe humanity " +
+					"from the galaxy; warships and massive asteroids hurdle toward our lonely planet. Stop them before it's too late! " +
+					"An homage to the old arcade game, Galaga, Galactic Fighter adds more threats and better freedom of movement than its " +
+					"predecessor. Test your skills against that of other players and climb the leadership board.</p>" +
+					"<a href='https://tenacious-teal.itch.io/galactic-fighter' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.games.horseshoeSweepstakesGame = "" + 
+	"<div id='horseshoe-sweepstakes-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"horseshoe-sweepstakes-header\")'>" +
+			"<h3 href='#horseshoe-sweepstakes' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Horseshoe Sweepstakes</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='horseshoe-sweepstakes' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='horseshoe-sweepstakes-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='11'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='12'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='13'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='14'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='15'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='16'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='17'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='18'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='19'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='20'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='21'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='22'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='23'></li>" +
+							"<li data-target='#horseshoe-sweepstakes-carousel' data-slide-to='24'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/horseshoe-screenshots-00.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-01.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-02.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-03.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-04.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-05.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-06.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-07.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-08.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-09.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-10.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-11.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-12.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-13.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-14.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-15.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-16.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-17.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-18.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-19.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-20.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-21.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-22.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-23.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/horseshoe-screenshots-24.jpg' alt='Horseshoe Sweepstakes - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Horseshoe Sweepstakes <span>(01/2017)</span></h4>" +
+					"<h5>-- C#, .NET, Unity --</h5>" +
+					"<p>A contracted sweepstakes (slot machines) engine with 16 themed games to be run in over two hundred sweepstakes stores across the United States.</p>" +
+					"<a href='https://youtu.be/DStHPVL2SAE' target='_blank' class='btn btn-danger'>Click to view promo video <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.games.planetDefenseGame = "" + 
 	"<div id='planetary-defense-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"planetary-defense-header\")'>" +
@@ -742,6 +1019,127 @@ categories.applications.bookstoreApp = "" +
 		"</div>" +
 	"</div>";
 
+categories.frontend.phoodBuddyFrontEnd = "" +
+	"<div id='phood-buddy-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"phood-buddy-header\")'>" +
+			"<h3 href='#phood-buddy' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Phood Buddy</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='phood-buddy' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='phood-buddy-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='10'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='11'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='12'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='13'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='14'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='15'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='16'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='17'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='18'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='19'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='20'></li>" +
+							"<li data-target='#phood-buddy-carousel' data-slide-to='21'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/phood-buddy-screenshots-01.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-02.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-03.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-04.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-05.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-06.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-07.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-08.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-09.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-10.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-11.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-12.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-13.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-14.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-15.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-16.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-17.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-18.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-19.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-20.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-21.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/phood-buddy-screenshots-22.jpg' alt='Phood Buddy - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Phood Buddy <span>(05/2016)</span></h4>" +
+					"<h5>-- HTML5, CSS, JavaScript, &amp; Firebase --</h5>" +
+						"<p>An exploration into the use of Firebase as a backend for a webapp, merged with a desire to solve the age old question: " + 
+						"\"What should I eat tonight\" and the apathetic response that can sometimes follow. Phood Buddy not only suggests any of a hundred recipes, " +
+						"it takes it to the next level by catering to the user's tastes by avoiding allergies and health conditions, as well as assisting with meal tracking, " +
+						"exercise, and the groceries.</p>" +
+					"<a href='https://phood-buddy.com' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.frontend.theCabalEffectFrontEnd = "" +
 	"<div id='the-cabal-effect-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"the-cabal-effect-header\")'>" +
@@ -1023,6 +1421,159 @@ categories.frontandback.financialTrackingRepositoryFrontAndBack = "" +
 					"<p>Built for the purpose of keeping track of my own finances, and a desire to practice my knowledge of the ReactJS framework.</p>" +
 					"<p>Uses a typical HTML5, CSS, and JavaScript (some use of JQuery) for the front-end, AJAX to communciate with the back-end, PHP as the back-end data layer, and an SQL database.</p>" +
 					"<a href='http://www.williamrobertfunk.com/applications/financial-tracking-repository/' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.vrar.hospitalSimVrAr = "" +
+	"<div id='hospital-sim-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"hospital-sim-header\")'>" +
+			"<h3 href='#hospital-sim' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Hospital Simulator (Prototype)</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='hospital-sim' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='hospital-sim-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#hospital-sim-carousel' data-slide-to='10'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/hospital-sim-screenshots-01.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-02.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-03.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-04.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-05.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-06.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-07.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-08.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-09.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-10.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/hospital-sim-screenshots-11.jpg' alt='Hospital Simulator - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Hospital Simulator <span>(02/2017)</span></h4>" +
+					"<h5>-- Virtual Reality, A-Frame, &amp; Javascript --</h5>" +
+					"<p>Virtual Environment application (prototype) for students in the medical administration field to build a pseudo-realistic simulation environment before " +
+					"spending time and resources in building a real world equivalent of that simulation. It's a <i>virtual</i> simulation of a <i>real</i> simulation.</br></br>" +
+					"Note: My contribution ended with the protoype. It has been improved signifanctly by my former co-workers. Check it out!</p>" +
+					"<a href='https://materia.ucf.edu/widgets/94-nursing-simulation-builder/demo' class='btn btn-danger'>Click to use application <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.vrar.vedicVrAr = "" +
+	"<div id='vedic-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"vedic-header\")'>" +
+			"<h3 href='#vedic' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>V.E.D.I.C.</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='vedic' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='vedic-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#vedic-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#vedic-carousel' data-slide-to='10'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/vedic-screenshots-01.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-02.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-03.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-04.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-05.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-06.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-07.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-08.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-09.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-10.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedic-screenshots-11.jpg' alt='V.E.D.I.C. - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>V.E.D.I.C. <span>(12/2016)</span></h4>" +
+					"<h5>-- Virtual Reality, Oculus DK2, Leap Motion, C#, PHP, MySQL, &amp; Unity --</h5>" +
+					"<p>Virtual Environment for Developing Interactive Code</br>A data-structure analytical tool for databases; primarily MySQL for " +
+					"the initial prototype. This is able to virtually model a MySQL database (local or remote). This program can perform the complete CRUD " +
+					"spectrum (Create, Read, Update, and Delete), as well as perform various analysis of the database itself. Its modular design allows " +
+					"for additional analytics to be added over time.</p>" +
+					"<a href='http://www.vedicode.com/' class='btn btn-danger'>Click to see more <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +
