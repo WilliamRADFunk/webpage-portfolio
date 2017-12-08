@@ -1110,6 +1110,73 @@ categories.applications.bookstoreApp = "" +
 		"</div>" +
 	"</div>";
 
+categories.frontend.eventNoteFrontEnd = "" +
+	"<div id='event-note-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"event-note-header\")'>" +
+			"<h3 href='#event-note' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Event Note</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='event-note' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='event-note-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#event-note-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#event-note-carousel' data-slide-to='8'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/event-note-screenshots-01.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-02.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-03.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-04.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-05.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-06.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-07.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-08.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/event-note-screenshots-09.png' alt='Event Note - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Event Note <span>(02/2017)</span></h4>" +
+					"<h5>-- HTML5, CSS, JavaScript, AngularJS &amp; Leaflet (Maps) --</h5>" +
+						"<p>A simple school-oriented, event organization application. This was built to help a friend who wanted a \"simple\" front-end " +
+						"made to display the back-end he had created for this purpose. Use username: test and passoword: test to access.</p>" +
+					"<a href='http://www.williamrobertfunk.com/applications/study-hall/' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.frontend.phoodBuddyFrontEnd = "" +
 	"<div id='phood-buddy-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"phood-buddy-header\")'>" +
