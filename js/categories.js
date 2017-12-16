@@ -1421,6 +1421,61 @@ categories.frontend.contentAlertFrontEnd = "" +
 		"</div>" +
 	"</div>";
 
+categories.frontandback.vedicodeFrontAndBack = "" +
+	"<div id='vedicode-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"vedicode-header\")'>" +
+			"<h3 href='#vedicode' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Vedicode</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='vedicode' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='vedicode-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#vedicode-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#vedicode-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#vedicode-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#vedicode-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#vedicode-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#vedicode-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#vedicode-carousel' data-slide-to='6'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/vedicode-screenshots_01.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedicode-screenshots-02.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedicode-screenshots-03.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedicode-screenshots-05.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedicode-screenshots-06.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/vedicode-screenshots-07.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Vedicode <span>(07/2016)</span></h4>" +
+					"<h5>-- HTML, CSS, Javascript, PHP, Wordpress, &amp; MySQL --</h5>" +
+					"<p>Full wordpress theme from scratch, designed and built to support the VR project: V.E.D.I.C.</p>" +
+					"<a href='http://vedicode.com/' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-download-alt'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.frontandback.twoTieredClientServerFrontAndBack = "" +
 	"<div id='two-tiered_client-server-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"two-tiered_client-server-header\")'>" +
@@ -1520,7 +1575,7 @@ categories.frontandback.twoTieredClientServerFrontAndBack = "" +
 categories.frontandback.financialTrackingRepositoryFrontAndBack = "" +
 	"<div id='financial-tracking-repository-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"financial-tracking-repository-header\")'>" +
-			"<h3 href='#financial-tracking-repository' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Financial Tracking Repository (in-progress)</h3>" +
+			"<h3 href='#financial-tracking-repository' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Financial Tracking Repository</h3>" +
 		"</a>" +
 	"</div>" +
 	"<div id='financial-tracking-repository' class='panel-collapse collapse'>" +
