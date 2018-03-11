@@ -893,6 +893,86 @@ categories.games.cinemaGuruGame = "" +
 		"</div>" +
 	"</div>";
 
+categories.applications.DogGroomer = "" +
+	"<div id='dog-groomer-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"dog-groomer-header\")'>" +
+			"<h3 href='#dog-groomer' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>NPM Dog-Groomer</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='dog-groomer' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='dog-groomer-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#dog-groomer-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#dog-groomer-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#dog-groomer-carousel' data-slide-to='2'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/dog-groomer-screenshots-01.jpg' alt='Dog-Groomer - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/dog-groomer-screenshots-02.jpg' alt='CinemaGURU - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/dog-groomer-screenshots-03.jpg' alt='CinemaGURU - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>NPM Dog-Groomer <span>(03/2018)</span></h4>" +
+					"<h5>-- JavaScript &amp; NodeJS --</h5>" +
+					"<p>An npm package that extends pug-lint to handle multiple files at once.</p>" +
+					"<p>Most of the magic is done by: Pug-Lint &amp; Glob</p>" +
+					"<p>I just brought the two together to solve a problem.</p>" +
+					"<a href='https://www.npmjs.com/package/dog-groomer' target='_blank' class='btn btn-danger'>See NPM Library <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+categories.applications.ColorsPlus = "" +
+	"<div id='colors-plus-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"colors-plus-header\")'>" +
+			"<h3 href='#colors-plus' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>NPM Colors-Plus</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='colors-plus' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='colors-plus-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#colors-plus-carousel' data-slide-to='0' class='active'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/colors-plus-screenshots-01.jpg' alt='Colors-Plus - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>NPM Colors-Plus <span>(08/2016)</span></h4>" +
+					"<h5>-- JavaScript &amp; NodeJS --</h5>" +
+					"<p>A simplistic extension of functionality to the npm package 'colors'</p>" +
+					"<p>For custom reporting on tests, I needed the green check for passing, red X for failing to pass, and the yellow triangle as warning.</p>" +
+					"<p>The colors library by Marak is the powerhouse here. This library incorporates that, adding some additional shapes.</p>" +
+					"<a href='https://www.npmjs.com/package/colors-plus' target='_blank' class='btn btn-danger'>See NPM Library <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.applications.TrigDriverApp = "" +
 	"<div id='trig-driver-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"trig-driver-header\")'>" +
