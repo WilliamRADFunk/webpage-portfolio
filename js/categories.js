@@ -16,6 +16,90 @@ var categories =
         return this[Object.keys(this)[n]];
     }}
 };
+categories.games.planetFunkGame = "" + 
+	"<div id='planet-funk-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"planet-funk-header\")'>" +
+			"<h3 href='#planet-funk' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Planet Funk</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='planet-funk' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='planet-funk-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='5'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='6'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='7'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='8'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='10'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='11'></li>" +
+							"<li data-target='#planet-funk-carousel' data-slide-to='12'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/planet-funk-screenshots-01.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-02.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-03.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-04.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-05.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-06.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-07.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-08.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-09.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-10.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-11.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-12.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/planet-funk-screenshots-13.jpg' alt='Planet Funk - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>Planet Funk <span>(12/2018)</span></h4>" +
+					"<h5>-- HTML5, SASS, TypeScript, ThreeJS, &amp; Gulp --</h5>" +
+					"<p>An arcade styled Mission Command meets Tower Defense game...but in space.</p>" +
+					"<p>Uses TypeScript to organize class logic, which allows a more complex game to be broken down " +
+					"into more human consumable proportions.</p>" +
+					"<a href='https://tenaciousteal.com/games/planet-funk/' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
 categories.games.stayInTheLightGame = "" + 
 	"<div id='stay-in-the-light-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"stay-in-the-light-header\")'>" +
@@ -40,6 +124,7 @@ categories.games.stayInTheLightGame = "" +
 							"<li data-target='#stay-in-the-light-carousel' data-slide-to='7'></li>" +
 							"<li data-target='#stay-in-the-light-carousel' data-slide-to='8'></li>" +
 							"<li data-target='#stay-in-the-light-carousel' data-slide-to='9'></li>" +
+							"<li data-target='#stay-in-the-light-carousel' data-slide-to='10'></li>" +
 							"<li data-target='#stay-in-the-light-carousel' data-slide-to='11'></li>" +
 						"</ol>" +
 						"<!-- Wrapper for slides -->" +
