@@ -972,7 +972,7 @@ categories.games.cinemaGuruGame = "" +
 					"<h5>-- C++ --</h5>" +
 					"<p>A text-based, C++ game operating entirely within the console window. Both links below give access to the necessary execution files.</p>" +
 					"<p>See project notes: <a href='http://www.williamrobertfunk.com/chronicles/cinema-guru-chronicle.html' target='_blank'>&lt;Chronicle&gt;</a></p>" +
-					"<a href='http://www.williamrobertfunk.com/applications/cinema-guru/CinemaGuru.zip' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-download-alt'></span></a>" +
+					"<a href='http://www.williamrobertfunk.com/applications/cinema-guru/CinemaGuru.zip' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-download-alt'></span></a>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +
@@ -1506,6 +1506,63 @@ categories.frontend.contentAlertFrontEnd = "" +
 		"</div>" +
 	"</div>";
 
+	categories.frontandback.senseTheIRLFrontAndBack = "" +
+		"<div id='sense-the-irl-header' class='panel-heading'>" +
+			"<a class='panel-title' onclick='setPanelToTop(\"sense-the-irl-header\")'>" +
+				"<h3 href='#sense-the-irl' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>Sense The IRL</h3>" +
+			"</a>" +
+		"</div>" +
+		"<div id='sense-the-irl' class='panel-collapse collapse'>" +
+			"<div class='panel-body'>" +
+				"<div class='row row-body'>" +
+					"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+						"<!-- Carousel for screenshots -->" +
+						"<div id='sense-the-irl-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+							"<!-- Indicators -->" +
+							"<ol class='carousel-indicators'>" +
+								"<li data-target='#sense-the-irl-carousel' data-slide-to='0' class='active'></li>" +
+								"<li data-target='#sense-the-irl-carousel' data-slide-to='1'></li>" +
+								"<li data-target='#sense-the-irl-carousel' data-slide-to='2'></li>" +
+								"<li data-target='#sense-the-irl-carousel' data-slide-to='3'></li>" +
+								"<li data-target='#sense-the-irl-carousel' data-slide-to='4'></li>" +
+								"<li data-target='#sense-the-irl-carousel' data-slide-to='5'></li>" +
+							"</ol>" +
+							"<!-- Wrapper for slides -->" +
+							"<div class='carousel-inner' role='listbox'>" +
+								"<div class='item active'>" +
+									"<img src='images/sense-the-irl-01.jpg' alt='Sense The IRL - Screenshot' class='img-responsive img-rounded centered'>" +
+								"</div>" +
+								"<div class='item'>" +
+									"<img src='images/sense-the-irl-02.jpg' alt='Sense The IRL - Screenshot' class='img-responsive img-rounded centered'>" +
+								"</div>" +
+								"<div class='item'>" +
+									"<img src='images/sense-the-irl-03.jpg' alt='Sense The IRL - Screenshot' class='img-responsive img-rounded centered'>" +
+								"</div>" +
+								"<div class='item'>" +
+									"<img src='images/sense-the-irl-05.jpg' alt='Sense The IRL - Screenshot' class='img-responsive img-rounded centered'>" +
+								"</div>" +
+								"<div class='item'>" +
+									"<img src='images/sense-the-irl-06.jpg' alt='Sense The IRL - Screenshot' class='img-responsive img-rounded centered'>" +
+								"</div>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+					"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+						"<h4>Sense The IRL (HackAThon) <span>(10/2018)</span></h4>" +
+						"<h5>-- HTML, SASS, TypeScript, Angular 5, NodeJS, &amp; ExpressJS --</h5>" +
+						"<p>As an entry into an on-site 36 hour hackathon (Hack The IRL), this fullstack application " +
+						"is designed to supplement the \"hard data\" already obtained by the Marine Resource Council (MRC) " +
+						"with human observation data involving the five senses in hopes of detecting environmental problems early on.</p>" +
+						"<p>My portion of the work in the team was to create the website (frontend) view of the data collected, " +
+						"the REST endpoints, and data storage (backend). Final application was full CRUD with the other team " +
+						"member creating an Android phone app for data entry.</p>" +
+						"<a href='http://www.williamrobertfunk.com/applications/sense-the-irl/about' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-download-alt'></span></a>" +
+					"</div>" +
+				"</div>" +
+			"</div>" +
+		"</div>";
+	
+
 categories.frontandback.vedicodeFrontAndBack = "" +
 	"<div id='vedicode-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"vedicode-header\")'>" +
@@ -1531,7 +1588,7 @@ categories.frontandback.vedicodeFrontAndBack = "" +
 						"<!-- Wrapper for slides -->" +
 						"<div class='carousel-inner' role='listbox'>" +
 							"<div class='item active'>" +
-								"<img src='images/vedicode-screenshots_01.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
+								"<img src='images/vedicode-screenshots-01.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
 							"</div>" +
 							"<div class='item'>" +
 								"<img src='images/vedicode-screenshots-02.png' alt='Vedicode - Screenshot' class='img-responsive img-rounded centered'>" +
@@ -1555,7 +1612,7 @@ categories.frontandback.vedicodeFrontAndBack = "" +
 					"<h4>Vedicode <span>(07/2016)</span></h4>" +
 					"<h5>-- HTML, CSS, Javascript, PHP, Wordpress, &amp; MySQL --</h5>" +
 					"<p>Full wordpress theme from scratch, designed and built to support the VR project: V.E.D.I.C.</p>" +
-					"<a href='http://vedicode.com/' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-download-alt'></span></a>" +
+					"<a href='http://vedicode.com/' target='_blank' class='btn btn-danger'>Click to visit site <span class='glyphicon glyphicon-download-alt'></span></a>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +
@@ -1794,7 +1851,7 @@ categories.vrar.hospitalSimVrAr = "" +
 					"<p>Virtual Environment application (prototype) for students in the medical administration field to build a pseudo-realistic simulation environment before " +
 					"spending time and resources in building a real world equivalent of that simulation. It's a <i>virtual</i> simulation of a <i>real</i> simulation.</br></br>" +
 					"Note: My contribution ended with the protoype. It has been improved signifanctly by my former co-workers. Check it out!</p>" +
-					"<a href='https://materia.ucf.edu/widgets/94-nursing-simulation-builder/demo' class='btn btn-danger'>Click to use application <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+					"<a href='https://materia.ucf.edu/widgets/94-nursing-simulation-builder/demo' target='_blank' class='btn btn-danger'>Click to use application <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +
@@ -1871,7 +1928,7 @@ categories.vrar.vedicVrAr = "" +
 					"the initial prototype. This is able to virtually model a MySQL database (local or remote). This program can perform the complete CRUD " +
 					"spectrum (Create, Read, Update, and Delete), as well as perform various analysis of the database itself. Its modular design allows " +
 					"for additional analytics to be added over time.</p>" +
-					"<a href='http://www.vedicode.com/' class='btn btn-danger'>Click to see more <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+					"<a href='http://www.vedicode.com/' target='_blank' class='btn btn-danger'>Click to see more <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
 				"</div>" +
 			"</div>" +
 		"</div>" +
