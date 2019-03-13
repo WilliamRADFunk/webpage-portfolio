@@ -16,6 +16,63 @@ var categories =
         return this[Object.keys(this)[n]];
     }}
 };
+categories.games.sudokuGame = "" + 
+	"<div id='sudoku-header' class='panel-heading'>" +
+		"<a class='panel-title' onclick='setPanelToTop(\"sudoku-header\")'>" +
+			"<h3 href='#sudoku' class='accordion-toggle' data-toggle='collapse' data-parent='#accordion-projects'>SuDoKu ExTrEmE</h3>" +
+		"</a>" +
+	"</div>" +
+	"<div id='sudoku' class='panel-collapse collapse'>" +
+		"<div class='panel-body'>" +
+			"<div class='row row-body'>" +
+				"<div class='col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 pull-right'>" +
+					"<!-- Carousel for screenshots -->" +
+					"<div id='sudoku-carousel' class='carousel slide' data-ride='carousel' data-interval='2500'>" +
+						"<!-- Indicators -->" +
+						"<ol class='carousel-indicators'>" +
+							"<li data-target='#sudoku-carousel' data-slide-to='0' class='active'></li>" +
+							"<li data-target='#sudoku-carousel' data-slide-to='1'></li>" +
+							"<li data-target='#sudoku-carousel' data-slide-to='2'></li>" +
+							"<li data-target='#sudoku-carousel' data-slide-to='3'></li>" +
+							"<li data-target='#sudoku-carousel' data-slide-to='4'></li>" +
+							"<li data-target='#sudoku-carousel' data-slide-to='5'></li>" +
+						"</ol>" +
+						"<!-- Wrapper for slides -->" +
+						"<div class='carousel-inner' role='listbox'>" +
+							"<div class='item active'>" +
+								"<img src='images/sudoku-screenshot-01.png' alt='SuDoKu ExTrEmE - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/sudoku-screenshot-02.png' alt='SuDoKu ExTrEmE - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/sudoku-screenshot-03.png' alt='SuDoKu ExTrEmE - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/sudoku-screenshot-04.png' alt='SuDoKu ExTrEmE - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/sudoku-screenshot-05.png' alt='SuDoKu ExTrEmE - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+							"<div class='item'>" +
+								"<img src='images/sudoku-screenshot-06.png' alt='SuDoKu ExTrEmE - Screenshot' class='img-responsive img-rounded centered'>" +
+							"</div>" +
+						"</div>" +
+					"</div>" +
+				"</div>" +
+				"<div class='col-lg-5 col-md-5 col-sm-5 col-xs-12'>" +
+					"<h4>SuDoKu ExTrEmE <span>(03/2019)</span></h4>" +
+					"<h5>-- HTML5, SASS, TypeScript, Angular, &amp; Karma/Jasmine --</h5>" +
+					"<p>Sudoku with a twist; pyramid stacks of interconnected sudoku boards.</p>" +
+					"<p>Uses Angular 7 and a backtracking algorithm to randomly generate as many as thousands of interconnected " +
+					"sudoku boards with save and load functionality built in.</p>" +
+					"<a href='https://tenaciousteal.com/games/sudoku/' target='_blank' class='btn btn-danger'>Click to play this game <span class='glyphicon glyphicon-circle-arrow-right'></span></a>" +
+				"</div>" +
+			"</div>" +
+		"</div>" +
+	"</div>";
+
+
 categories.games.planetFunkGame = "" + 
 	"<div id='planet-funk-header' class='panel-heading'>" +
 		"<a class='panel-title' onclick='setPanelToTop(\"planet-funk-header\")'>" +
