@@ -36,15 +36,28 @@ function changeActiveListElem(elem)
 	children[elem].classList.add('active');
 	if(elem <= children.length-1) fillCategory(children[elem].children[0].getAttribute('value'));
 }
-function fillCategory(cat)
+function fillCategory(words)
 {
 	var elem = document.getElementById('myProjects');
-	for(var i = 1; i < Object.keys(categories[cat]).length; i++) elem.innerHTML += categories[cat].key(i);
+	const splitWords = words.split(",").filter(x => x.trim());
+	const matches = [];
+	for(var i = 0; i < categories.length; i++) {
+		const cat = categories[i];
+		const tags = cat.tags;
+		for (var j = 0; j < splitWords.length; j++) {
+			if (tags.includes(splitWords[j])) {
+				matches.push(cat);
+				break;
+			}
+		}
+	}
+	matches.forEach(categ => {
+		elem.innerHTML += categ.html;
+	});
 }
 function init()
 {
-	var elem = document.getElementById('myProjects');
-	fillCategory('games');
+	fillCategory('game, games');
 
 	var logo = document.getElementById('logo');
 	var tagLine = document.getElementById('tagline');
