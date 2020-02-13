@@ -383,6 +383,10 @@ ol
 {
     height: 150px;
 }
+.form-control {
+    float: none !important;
+    width: auto !important;
+}
 @media (min-width: 1200px) {
     body
     {

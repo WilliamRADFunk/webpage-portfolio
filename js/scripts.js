@@ -22,19 +22,11 @@ function setPanelToTop(elem)
 	var carousel = document.getElementById(elem.replace('header', 'carousel'));
 	$('#' + elem.replace('header', 'carousel')).carousel('cycle');
 }
-function changeActiveListElem(elem)
+function changeActiveListElem(value)
 {
-	// Clear old category from page.
+	// Clear old result from page.
 	document.getElementById('myProjects').innerHTML = '';
-	// Switch active class to clicked tab.
-	var listHolder = document.getElementById('project-categories');
-	var children = listHolder.children;
-	for(var i = 0; i < children.length; i++)
-	{
-		children[i].classList.remove('active');
-	}
-	children[elem].classList.add('active');
-	if(elem <= children.length-1) fillCategory(children[elem].children[0].getAttribute('value'));
+	fillCategory(value.toLowerCase());
 }
 function fillCategory(words)
 {

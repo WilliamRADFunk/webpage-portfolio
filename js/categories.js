@@ -162,8 +162,8 @@ var categories = [
 		tags: [
 			"games",
 			"game",
-			"Three js",
-			"Threejs",
+			"three js",
+			"threejs",
 			"html 5",
 			"html5",
 			"sass",

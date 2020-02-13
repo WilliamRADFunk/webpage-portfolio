@@ -134,7 +134,20 @@
 	</div>
 	<div class="panel-group" id="accordion-projects">
 		<ul id="project-categories" class="nav nav-tabs">
-			<li role="presentation" class="active"><a href="#" onclick="changeActiveListElem(0); return false;" value="games">Games</a></li>
+			<li role="presentation" class="active w-100">
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+					  	<span class="input-group-text" id="tag-search">Search by keywords (any match): </span>
+						<input
+							type="text"
+							class="form-control"
+							placeholder="game, games"
+							aria-label="game, games"
+							aria-describedby="tag-search"
+							onchange="changeActiveListElem(value); return false;"
+							value="game, games"/>
+				</div>
+			</li>
 		</ul>
 		<div id="myProjects" class="panel panel-default"></div>
 	</div>
