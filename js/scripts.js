@@ -54,6 +54,9 @@ function fillCategory(words)
 	matches.forEach(categ => {
 		elem.innerHTML += categ.html;
 	});
+	if (!matches.length) {
+		elem.innerHTML += "<div><h3>There are no applications with tags that match your query.</h3></div>";
+	}
 }
 function init()
 {
