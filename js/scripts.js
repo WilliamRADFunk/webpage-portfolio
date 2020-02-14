@@ -57,7 +57,7 @@ function fillCategory(words)
 		elem.innerHTML += categ.html;
 	});
 	if (!matches.length) {
-		elem.innerHTML += "<div><h3>There are no applications with tags that match your query.</h3></div>";
+		elem.innerHTML += "<div style=\"margin-top: 75px;\"><h3>There are no applications with tags that match your query.</h3></div>";
 	}
 }
 function init()
