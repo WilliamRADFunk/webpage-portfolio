@@ -66,7 +66,7 @@ var categories = [
 			"html 5",
 			"html5",
 			"sass",
-			"typeScript",
+			"typescript",
 			"karma",
 			"jasmine",
 			"sudoku",
@@ -167,7 +167,7 @@ var categories = [
 			"html 5",
 			"html5",
 			"sass",
-			"typeScript",
+			"typescript",
 			"gulp",
 			"planet funk",
 			"procedural generation",
@@ -270,6 +270,7 @@ var categories = [
 			"javaScript",
 			"php",
 			"mysql",
+			"my sql",
 			"stay in the light",
 			"procedural generation",
 			"arcade"
@@ -342,7 +343,23 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"three js",
+			"threejs",
+			"html 5",
+			"html5",
+			"ajax",
+			"javaScript",
+			"php",
+			"mysql",
+			"my sql",
+			"galactic",
+			"galactic fighter",
+			"procedural generation",
+			"arcade"
+		],
 	},
 	{
 		year: 2016,
@@ -437,7 +454,23 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"angular js",
+			"angularjs",
+			"html 5",
+			"html5",
+			"ajax",
+			"javaScript",
+			"php",
+			"mysql",
+			"my sql",
+			"cinema",
+			"tycoon",
+			"cinema tycoon",
+			"simulator"
+		],
 	},
 	{
 		year: 2017,
@@ -570,7 +603,24 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"slots",
+			"slot machine",
+			"slot machines",
+			"application",
+			"casino",
+			"sweepstakes",
+			"project horseshoe",
+			"horseshoe",
+			"unity",
+			"net",
+			"dotnet",
+			".net",
+			"c#",
+			"c sharp"
+		],
 	},
 	{
 		year: 2015,
@@ -630,7 +680,22 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"three js",
+			"threejs",
+			"html 5",
+			"html5",
+			"php",
+			"ajax",
+			"javascript",
+			"planetary defense",
+			"procedural generation",
+			"arcade",
+			"missile command",
+			"tower defense"
+		],
 	},
 	{
 		year: 2015,
@@ -705,7 +770,18 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"three js",
+			"threejs",
+			"html 5",
+			"html5",
+			"javascript",
+			"hack bauer",
+			"codebreaker",
+			"puzzle"
+		],
 	},
 	{
 		year: 2015,
@@ -796,7 +872,20 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"three js",
+			"threejs",
+			"html 5",
+			"html5",
+			"javascript",
+			"siege warfare",
+			"physijs",
+			"physi js",
+			"cannon",
+			"shooter"
+		],
 	},
 	{
 		year: 2015,
@@ -847,7 +936,20 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"three js",
+			"threejs",
+			"html 5",
+			"html5",
+			"javascript",
+			"3d pong",
+			"3d",
+			"pong",			
+			"arcade",
+			"ai"
+		],
 	},
 	{
 		year: 2015,
@@ -906,7 +1008,21 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"svg",
+			"html 5",
+			"html5",
+			"javascript",
+			"3d tictactoe",
+			"3d",
+			"tictactoe",	
+			"tic tac toe",
+			"tic-tac-toe",	
+			"puzzle",
+			"ai"
+		],
 	},
 	{
 		year: 2015,
@@ -961,7 +1077,20 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"html 5",
+			"html5",
+			"javascript",
+			"2d tictactoe",
+			"2d",
+			"tictactoe",	
+			"tic tac toe",
+			"tic-tac-toe",	
+			"puzzle",
+			"ai"
+		],
 	},
 	{
 		year: 2015,
@@ -1008,7 +1137,13 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"html 5",
+			"html5",
+			"javascript",
+			"qfish",
+			"q fish"
+		],
 	},
 	{
 		year: 2015,
@@ -1055,7 +1190,17 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"html 5",
+			"html5",
+			"javascript",
+			"total recall",
+			"recall",
+			"memory",	
+			"cards"
+		],
 	},
 	{
 		year: 2015,
@@ -1118,7 +1263,17 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"html 5",
+			"html5",
+			"c++",
+			"c",
+			"simulator",
+			"procedural generation",
+			"cinema guru"
+		],
 	},
 	{
 		year: 2015,
@@ -1169,7 +1324,19 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"games",
+			"game",
+			"html 5",
+			"html5",
+			"three js",
+			"threejs",
+			"trig driver",
+			"application",
+			"education",
+			"educational",
+			"math"
+		],
 	},
 	{
 		year: 2015,
@@ -1220,7 +1387,17 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"application",
+			"html 5",
+			"html5",
+			"php",
+			"frontend",
+			"front end",
+			"front-end",
+			"encryption",
+			"encryptor"
+		],
 	},
 	{
 		year: 2016,
@@ -1267,7 +1444,24 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"fake bank",
+			"bank",
+			"java",
+			"javafx",
+			"java fx",
+			"scene builder",
+			"scene builder 2",
+			"frontend",
+			"front end",
+			"front-end",
+			"backend",
+			"back end",
+			"back-end",
+			"application",
+			"scene builder 2.0",
+			"multithreading"
+		],
 	},
 	{
 		year: 2016,
@@ -1351,7 +1545,22 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"bookstore",
+			"java",
+			"javafx",
+			"java fx",
+			"frontend",
+			"front end",
+			"front-end",
+			"backend",
+			"back end",
+			"back-end",
+			"scene builder",
+			"scene builder 2",
+			"application",
+			"scene builder 2.0"
+		],
 	},
 	{
 		year: 2017,
@@ -1422,7 +1631,26 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"event note",
+			"eventnote",
+			"frontend",
+			"front end",
+			"front-end",
+			"javascript",
+			"angularjs",
+			"angular js",
+			"application",
+			"web",
+			"webapp",
+			"web app",
+			"leaflet",
+			"html5",
+			"html 5",
+			"css",
+			"map",
+			"maps"
+		],
 	},
 	{
 		year: 2016,
@@ -1547,7 +1775,25 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"phoodbuddy",
+			"phood buddy",
+			"food buddy",
+			"frontend",
+			"front end",
+			"front-end",
+			"javascript",
+			"firebase",
+			"application",
+			"web",
+			"webapp",
+			"web app",
+			"html5",
+			"html 5",
+			"css",
+			"nutrition",
+			"food"
+		],
 	},
 	{
 		year: 2016,
@@ -1616,7 +1862,25 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"the cabal effect",
+			"cabal effect",
+			"frontend",
+			"front end",
+			"front-end",
+			"javascript",
+			"parse",
+			"application",
+			"web",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"css",
+			"social",
+			"social media",
+			"hackathon"
+		],
 	},
 	{
 		year: 2015,
@@ -1678,7 +1942,20 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"content alert",
+			"frontend",
+			"front end",
+			"front-end",
+			"javascript",
+			"application",
+			"web",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"css"
+		],
 	},
 	{
 		year: 2018,
@@ -1738,7 +2015,22 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"content alert",
+			"phood buddy",
+			"food buddy",
+			"frontend",
+			"front end",
+			"front-end",
+			"javascript",
+			"application",
+			"web",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"css"
+		],
 	},
 	{
 		year: 2016,
@@ -1797,7 +2089,26 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"vedicode",
+			"vedi code",
+			"vedi-code",
+			"frontend",
+			"front end",
+			"front-end",
+			"javascript",
+			"application",
+			"web",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"css",
+			"php",
+			"mysql",
+			"my sql",
+			"wordpress"
+		],
 	},
 	{
 		year: 2016,
@@ -1897,7 +2208,34 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"two-tiered client-server",
+			"two tiered client server",
+			"2 tiered client server",
+			"frontend",
+			"front end",
+			"front-end",
+			"backend",
+			"back end",
+			"back-end",
+			"server",
+			"client",
+			"java",
+			"javafx",
+			"java fx",
+			"application",
+			"web",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"mysql",
+			"my sql",
+			"scene builder",
+			"scene builder 2",
+			"application",
+			"scene builder 2.0"
+		],
 	},
 	{
 		year: 2015,
@@ -1968,7 +2306,31 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"financial tracking repository",
+			"financial tracking",
+			"money tracking",
+			"money",
+			"financial",
+			"frontend",
+			"front end",
+			"front-end",
+			"backend",
+			"back end",
+			"back-end",
+			"php",
+			"application",
+			"web",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"mysql",
+			"my sql",
+			"react",
+			"reactjs",
+			"react js"
+		],
 	},
 	{
 		year: 2017,
@@ -2048,7 +2410,29 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"hospital simulator",
+			"hospitol simulator",
+			"hospital",
+			"simulator",
+			"educational",
+			"frontend",
+			"front end",
+			"front-end",
+			"virtual",
+			"virtual reality",
+			"vr",
+			"a-frame",
+			"aframe",
+			"a frame",
+			"application",
+			"web",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"javascript"
+		],
 	},
 	{
 		year: 2016,
@@ -2129,6 +2513,34 @@ var categories = [
 					"</div>" +
 				"</div>" +
 			"</div>",
-		tags: [],
+		tags: [
+			"v.e.d.i.c.",
+			"v.e.d.i.c",
+			"vedic",
+			"virtual environment for the development of interactive code",
+			"interactive",
+			"virtual",
+			"virtual reality",
+			"vr",
+			"oculus",
+			"dk2",
+			"oculus dk2",
+			"application",
+			"leap motion",
+			"leapmotion",
+			"leap",
+			"website",
+			"web site",
+			"html5",
+			"html 5",
+			"c#",
+			"csharp",
+			"c-sharp",
+			"c sharp",
+			"php",
+			"mysql",
+			"my sql",
+			"unity"
+		],
 	}
 ];

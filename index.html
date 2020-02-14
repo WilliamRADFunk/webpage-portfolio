@@ -133,22 +133,23 @@
 		<h2><span>MY </span><strong>Projects</strong></h2>
 	</div>
 	<div class="panel-group" id="accordion-projects">
-		<ul id="project-categories" class="nav nav-tabs">
-			<li role="presentation" class="active w-100">
-				<div class="input-group mb-3">
-					<div class="input-group-prepend">
-					  	<span class="input-group-text" id="tag-search">Search by keywords (any match): </span>
-						<input
-							type="text"
-							class="form-control"
-							placeholder="game, games"
-							aria-label="game, games"
-							aria-describedby="tag-search"
-							onchange="changeActiveListElem(value); return false;"
-							value="game, games"/>
+		<div class="div-inline" style="margin-bottom: 1rem;">
+			<div class="form-group">
+				<label class="sr-only" for="tag-search">Search by keywords (any match): </label>
+				<div class="input-group">
+					<div class="input-group-addon">Search by keywords (any match): </div>
+					<input
+						type="text"
+						class="form-control"
+						placeholder="game, angular, pixijs"
+						aria-label="game, angular, pixijs"
+						aria-describedby="tag-search"
+						id="tag-search"
+						oninput="changeActiveListElem(value); return false;"
+						value="game, angular, pixijs"/>
 				</div>
-			</li>
-		</ul>
+			</div>
+		</form>
 		<div id="myProjects" class="panel panel-default"></div>
 	</div>
 	<div id="work" class="row row-body subheader">
