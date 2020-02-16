@@ -68,6 +68,15 @@ ol
 {
     background-color: none;
 }
+#accordion-projects {
+    min-height: 200px;
+}
+#accordion-projects .div-inline {
+    margin-bottom: 1rem;
+}
+#accordion-projects .div-inline input[type=text]{
+    width: 100% !important;
+}
 #accordion-projects .btn.btn-danger
 {
     background-color: #74b2f0;
@@ -382,6 +391,10 @@ ol
 .top-spacer
 {
     height: 150px;
+}
+.form-control {
+    float: none !important;
+    width: auto !important;
 }
 @media (min-width: 1200px) {
     body

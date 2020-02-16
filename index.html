@@ -60,12 +60,16 @@
 				<li><a href="#projects" onclick="jumpTo()">Projects</a></li>
 				<li class="dropdown"><a href="#" data-toggle="dropdown">Code <span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="https://www.npmjs.com/package/dog-groomer" target="_blank">NPM Dog-Groomer</a></li>
+						<li><a href="https://github.com/WilliamRADFunk/sudoku" target="_blank">SuDoKu ExTrEmE</a></li>
+						<li><a href="https://github.com/WilliamRADFunk/planet-funk" target="_blank">Planet Funk</a></li>
+						<li><a href="https://github.com/WilliamRADFunk/irl-reporting-site" target="_blank">Sense The IRL - Front End</a></li>
+						<li><a href="https://github.com/WilliamRADFunk/irl-reporting-rest" target="_blank">Sense The IRL - Back End</a></li>
 						<li><a href="https://github.com/WilliamRADFunk/stay-in-the-light" target="_blank">Stay in the Light</a></li>
 						<li><a href="https://github.com/WilliamRADFunk/galactic-fighter" target="_blank">Galactic Fighter</a></li>
 						<li><a href="https://github.com/WilliamRADFunk/cinema-tycoon" target="_blank">Cinema Tycoon</a></li>
 						<li><a href="https://github.com/WilliamRADFunk/study-hall" target="_blank">Event Note</a></li>
 						<li><a href="https://youtu.be/DStHPVL2SAE" target="_blank">Horseshoe Sweepstakes</a></li>
+						<li><a href="https://github.com/WilliamRADFunk/vedic-site" target="_blank">Vedicode</a></li>
 						<li><a href="https://github.com/WilliamRADFunk/vedic" target="_blank">V.E.D.I.C.</a></li>
 						<li><a href="https://github.com/WilliamRADFunk/phood-buddy" target="_blank">Phood Buddy</a></li>
 						<li><a href="https://github.com/WilliamRADFunk/planetary-defense/commits/master" target="_blank">Planetary Defense</a></li>
@@ -107,12 +111,12 @@
 			<p>Software Engineering at its finest is robust, clean, and creates a seemless connection between the user's intent and a program's output. It's my strongest desire to excel in all three areas of the craft, and to do so with the highest integrity and security possible.</p>
 		</div>
 		<div id="featured-img" class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
-			<img src="images/img_featuredApplication05.jpg" alt="Newest Application - Planetary Defense" class="img-responsive">
+			<img src="images/sudoku-screenshot-01.png" alt="Newest Application - SuDoKu ExTrEmE" class="img-responsive">
 		</div>
 		<div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-12 col-xs-12">
-			<h4>Stay in the Light</h4>
-			<h5>A classic light vs dark race to conquer the map with a shout back to the days of pixelated graphics.</h5></p>
-			<a href="https://tenaciousteal.com/games/stay-in-the-light/" target="_blank" class="btn btn-danger">Click to play this game</a>
+			<h4>SuDoKu ExTrEmE</h4>
+			<h5>Sudoku with a twist; pyramid stacks of interconnected sudoku boards.</h5></p>
+			<a href="https://tenaciousteal.com/games/sudoku/" target="_blank" class="btn btn-danger">Click to play this game</a>
 		</div>
 	</div>
 	<div id="about" class="row row-body subheader">
@@ -129,15 +133,27 @@
 	<div id="projects" class="row row-body subheader">
 		<h2><span>MY </span><strong>Projects</strong></h2>
 	</div>
-	<div class="panel-group" id="accordion-projects">
-		<ul id="project-categories" class="nav nav-tabs">
-			<li role="presentation" class="active"><a href="#" onclick="changeActiveListElem(0); return false;" value="games">Games</a></li>
-			<li role="presentation"><a href="#" onclick="changeActiveListElem(1); return false;" value="applications">Applications</a></li>
-			<li role="presentation"><a href="#" onclick="changeActiveListElem(2); return false;" value="frontend">Front-End</a></li>
-			<li role="presentation"><a href="#" onclick="changeActiveListElem(3); return false;" value="frontandback">Front-&amp;-Back</a></li>
-			<li role="presentation"><a href="#" onclick="changeActiveListElem(4); return false;" value="vrar">VR-AR</a></li>
-		</ul>
-		<div id="myProjects" class="panel panel-default"></div>
+	<div class="row row-body">
+		<div class="panel-group" id="accordion-projects">
+			<div class="div-inline">
+				<div class="form-group">
+					<label class="sr-only" for="tag-search">Search by keywords (any match): </label>
+					<div class="input-group">
+						<div class="input-group-addon">Keywords (any match): </div>
+						<input
+							type="text"
+							class="form-control"
+							placeholder="ie. game, angular, pixijs"
+							aria-label="game, angular, pixijs"
+							aria-describedby="tag-search"
+							id="tag-search"
+							oninput="changeActiveListElem(value); return false;"
+							value="game, angular, pixijs"/>
+					</div>
+				</div>
+			</div>
+			<div id="myProjects" class="panel panel-default"></div>
+		</div>
 	</div>
 	<div id="work" class="row row-body subheader">
 		<h2><span>MY </span><strong>Work Experience</strong></h2>
@@ -146,33 +162,58 @@
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 job-history">
 			<h4>Software Engineer II</h4>
 			<hr>
-			<p>Create new, and improve existing, features. Seek out, identify, and resolve bugs. Provide input on design, best practices, and architecture. Using HTML / CSS / Javascript / Angular.js / Java / Spring / Triple-Store / Ontology</p>
-			<p>Modus Operandi
-			</br>709 S Harbor City Blvd</br>Melbourne, FL 32901</br>321-473-1400</p>
+			<p>Azure Cloud Computing.</p>
+			<p>Using HTML5 / LESS / Typescript / KnockoutJS / .NET / QUnit</p>
+			<p>
+				<i>July 2019 - Present</i>
+				</br><strong>Microsoft</strong>
+				</br>One Microsoft Way
+				</br>Seattle, WA 98121
+				</br>425-882-8080
+			</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 job-history">
+			<h4>Software Engineer II</h4>
+			<hr>
+			<p>Create new, and improve existing, features. Seek out, identify, and resolve bugs. Provide input on design, best practices, and architecture.</p>
+			<p>Using HTML / CSS / Javascript / AngularJS / Angular 2+ / Java / Spring / Triple-Store / Ontology</p>
+			<p>
+				<i>February 2017 - June 2019</i>
+				</br><strong>Modus Operandi</strong>
+				</br>709 S Harbor City Blvd
+				</br>Melbourne, FL 32901
+				</br>321-473-1400
+			</p>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 job-history">
 			<h4>New Media Programmer</h4>
 			<hr>
-			<p>Developing educational widgets in HTML / CSS / Javascript / JQuery / Angular.js / React.js / PHP / AJAX / SQL</p>
-			<p>Center for Distributed Learning</br>University of Central Florida
-			</br>12701 Pegasus Drive</br>Orlando, FL 32816</br>407-823-4910</p>
-			<p><span>Example:</span></br>
+			<p>Developing educational widgets in</p>
+			<p>HTML / CSS / Javascript / JQuery / Angular.js / React.js / PHP / AJAX / SQL</p>
+			<p>
+				<i>May 2015 - February 2017</i>
+				</br><strong>Center for Distributed Learning</strong>
+				</br>University of Central Florida
+				</br>12701 Pegasus Drive
+				</br>Orlando, FL 32816
+				</br>407-823-4910
+			</p>
+			<p><i>Example:</i></br>
 				<a href="https://techrangers.cdl.ucf.edu/past_william-funk.php" target="_blank">&quot;Techranger&quot;</a></br>
 			</p>
 		</div>
+	</div>
+	<div class="row row-body alternate-color">
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 job-history">
 			<h4>Front-End Developer</h4>
 			<hr>
-			<p>Freelance</p>
-			<p>Developing applications in a variety of technologies. HTML / CSS / Javascript / C# / .NET / Unity</p>
-			<p>Toronto, Ontario, Canada + Orlando, Florida, USA</p>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 job-history">
-			<h4>SEO Writer</h4>
-			<hr>
-			<p>Freelance</p>
-			<p>Creating META data and page text that maximizes keyword effectiveness.</p>
-			<p>Montreal, Quebec, Canada</p>
+			<p>Developing applications in a variety of technologies.</p>
+			<p>HTML / CSS / Javascript / C# / .NET / Unity</p>
+			<p>
+				<i>July 2010 - December 2016</i>
+				</br><strong>Freelance</strong>
+				</br>Toronto, Ontario, Canada + Orlando, Florida, USA
+			</p>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 job-history">
 			<h4>Fiction Author</h4>

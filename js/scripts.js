@@ -22,29 +22,47 @@ function setPanelToTop(elem)
 	var carousel = document.getElementById(elem.replace('header', 'carousel'));
 	$('#' + elem.replace('header', 'carousel')).carousel('cycle');
 }
-function changeActiveListElem(elem)
+function changeActiveListElem(value)
 {
-	// Clear old category from page.
+	// Clear old result from page.
 	document.getElementById('myProjects').innerHTML = '';
-	// Switch active class to clicked tab.
-	var listHolder = document.getElementById('project-categories');
-	var children = listHolder.children;
-	for(var i = 0; i < children.length; i++)
-	{
-		children[i].classList.remove('active');
-	}
-	children[elem].classList.add('active');
-	if(elem <= children.length-1) fillCategory(children[elem].children[0].getAttribute('value'));
+	fillCategory(value.toLowerCase());
 }
-function fillCategory(cat)
+function fillCategory(words)
 {
 	var elem = document.getElementById('myProjects');
-	for(var i = 1; i < Object.keys(categories[cat]).length; i++) elem.innerHTML += categories[cat].key(i);
+	const splitWords = words.split(",");
+	const matches = [];
+	for(var i = 0; i < categories.length; i++) {
+		const cat = categories[i];
+		const tags = cat.tags;
+		if (!tags.length) {
+			continue;
+		}
+		for (var j = 0; j < splitWords.length; j++) {
+			if (tags.includes(splitWords[j].trim())) {
+				matches.push(cat);
+				break;
+			}
+		}
+	}
+	matches.sort(function(a, b) {
+		if (a.year > b.year) {
+			return -1;
+		} else {
+			return 1;
+		}
+	});
+	matches.forEach(categ => {
+		elem.innerHTML += categ.html;
+	});
+	if (!matches.length) {
+		elem.innerHTML += "<div style=\"margin-top: 75px;\"><h3>There are no applications with tags that match your query.</h3></div>";
+	}
 }
 function init()
 {
-	var elem = document.getElementById('myProjects');
-	fillCategory('games');
+	fillCategory('game, angular, pixijs');
 
 	var logo = document.getElementById('logo');
 	var tagLine = document.getElementById('tagline');
@@ -60,7 +78,6 @@ function init()
 		var tagLine = document.getElementById('tagline');
 		var pdf = document.getElementById('pdf-logo');
 		var git = document.getElementById('git-logo');
-		console.log(height, tagLine.style.marginTop);
 		if(window.innerWidth > 767)
 		{
 			height -= 20;
@@ -79,7 +96,6 @@ function init()
 }
 function adjustTagLine(elem)
 {
-	console.log('DEBUG');
 	var height = elem.offsetHeight;
 	var tagLine = document.getElementById('tagline');
 	if(height > 767)
