@@ -1,7 +1,7 @@
-/* 
+/*
 Portfolio Site Stylesheet v1.0
 Last Updated: 2016-03-29
-Author: William R.A.D. Funk - http://WilliamRobertFunk.com 
+Author: William R.A.D. Funk - http://WilliamRobertFunk.com
 */
 a
 {
@@ -207,10 +207,6 @@ ol
     visibility: visible;
 }
 
-.dropdown:hover .dropdown-menu
-{
-    display: block;
-}
 .job-history a
 {
     color: #282828;
@@ -235,6 +231,15 @@ ol
     background-color: #0A4273;
     color: #d9d9d9;
     width: 100%;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #ADD5F7;
+    color: #35478C;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #333333;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
@@ -550,9 +555,9 @@ ol
         line-height: 22px;
         margin: 15px 0px;
     }
-    .navbar-fixed-top .navbar-collapse
+    .navbar-fixed-top .navbar-collapse > ul > li
     {
-        padding-left: 5%;
+        padding-left: 15px;
     }
     .panel-default > .panel-heading h3
     {
@@ -752,6 +757,9 @@ ol
         font-size: 13.5px;
         line-height: 18px;
         margin: 15px 0px;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: #FFFFFF;
     }
     .nav-tabs > li > a
     {
