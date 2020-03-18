@@ -1,7 +1,7 @@
 var categories = [
 	{
 		year: 2019,
-		name: "sudoku",
+		name: "SuDoKu ExTrEmE",
 		html: "" +
 			"<div id='sudoku-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"sudoku-header\")'>" +
@@ -263,6 +263,7 @@ var categories = [
 			"games",
 			"game",
 			"pixi js",
+			"pixijs",
 			"pixi",
 			"html 5",
 			"html5",
@@ -457,6 +458,7 @@ var categories = [
 		tags: [
 			"games",
 			"game",
+			"angular",
 			"angular js",
 			"angularjs",
 			"html 5",
@@ -1638,6 +1640,7 @@ var categories = [
 			"front end",
 			"front-end",
 			"javascript",
+			"angular",
 			"angularjs",
 			"angular js",
 			"application",
@@ -2016,12 +2019,26 @@ var categories = [
 				"</div>" +
 			"</div>",
 		tags: [
-			"content alert",
-			"phood buddy",
+			"sense the irl",
+			"indian",
+			"river",
+			"lagoon",
+			"indian river lagoon",
 			"food buddy",
 			"frontend",
 			"front end",
 			"front-end",
+			"backend",
+			"back end",
+			"back-end",
+			"server",
+			"client",
+			"node",
+			"nodejs",
+			"node js",
+			"angular",
+			"angular 5",
+			"angular5",
 			"javascript",
 			"application",
 			"web",
@@ -2544,3 +2561,5 @@ var categories = [
 		],
 	}
 ];
+
+export const applications = categories;
