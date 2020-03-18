@@ -2,6 +2,8 @@ var categories = [
 	{
 		year: 2019,
 		name: "SuDoKu ExTrEmE",
+		carouselId: "#sudoku-carousel",
+		id: "sudoku",
 		html: "" +
 			"<div id='sudoku-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"sudoku-header\")'>" +
@@ -76,6 +78,8 @@ var categories = [
 	{
 		year: 2018,
 		name: "Planet Funk",
+		carouselId: "#planet-funk-carousel",
+		id: "planet-funk",
 		html: "" +
 			"<div id='planet-funk-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"planet-funk-header\")'>" +
@@ -179,6 +183,8 @@ var categories = [
 	{
 		year: 2017,
 		name: "Stay In The Light",
+		carouselId: "#stay-in-the-light-carousel",
+		id: "stay-in-the-light",
 		html: "" +
 			"<div id='stay-in-the-light-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"stay-in-the-light-header\")'>" +
@@ -280,6 +286,8 @@ var categories = [
 	{
 		year: 2017,
 		name: "Galactic Fighter",
+		carouselId: "#galactic-fighter-carousel",
+		id: "galactic-fighter",
 		html: "" +
 			"<div id='galactic-fighter-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"galactic-fighter-header\")'>" +
@@ -365,6 +373,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "Cinema Tycoon",
+		carouselId: "#cinema-tycoon-carousel",
+		id: "cinema-tycoon",
 		html: "" +
 			"<div id='cinema-tycoon-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"cinema-tycoon-header\")'>" +
@@ -477,6 +487,8 @@ var categories = [
 	{
 		year: 2017,
 		name: "Horseshoe Sweepstakes",
+		carouselId: "#horseshoe-sweepstakes-carousel",
+		id: "horseshoe-sweepstakes",
 		html: "" +
 			"<div id='horseshoe-sweepstakes-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"horseshoe-sweepstakes-header\")'>" +
@@ -627,6 +639,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Planet Defense",
+		carouselId: "#planetary-defense-carousel",
+		id: "planetary-defense",
 		html: "" +
 			"<div id='planetary-defense-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"planetary-defense-header\")'>" +
@@ -702,6 +716,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Hack Bauer",
+		carouselId: "#hack-bauer-carousel",
+		id: "hack-bauer",
 		html: "" +
 			"<div id='hack-bauer-codebreaker-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"hack-bauer-codebreaker-header\")'>" +
@@ -788,6 +804,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Siege Warfare",
+		carouselId: "#siege-warfare-carousel",
+		id: "siege-warfare",
 		html: "" +
 			"<div id='siege-warfare-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"siege-warfare-header\")'>" +
@@ -892,6 +910,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "3D Pong",
+		carouselId: "#pong-3D-carousel",
+		id: "pong-3D",
 		html: "" +
 			"<div id='pong-3D-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"pong-3D-header\")'>" +
@@ -956,6 +976,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "3D TicTacToe",
+		carouselId: "#tictactoe3D-carousel",
+		id: "tictactoe3D",
 		html: "" +
 			"<div id='tictactoe3D-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"tictactoe3D-header\")'>" +
@@ -1029,6 +1051,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "2D TicTacToe",
+		carouselId: "#tictactoe2D-carousel",
+		id: "tictactoe2D",
 		html: "" +
 			"<div id='tictactoe2D-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"tictactoe2D-header\")'>" +
@@ -1097,6 +1121,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Q Fish",
+		carouselId: "#q-fish-carousel",
+		id: "q-fish",
 		html: "" +
 			"<div id='q-fish-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"q-fish-header\")'>" +
@@ -1150,6 +1176,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Total Recall",
+		carouselId: "#total-recall-carousel",
+		id: "total-recall",
 		html: "" +
 			"<div id='total-recall-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"total-recall-header\")'>" +
@@ -1207,6 +1235,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Cinema Guru",
+		carouselId: "#cinema-guru-carousel",
+		id: "cinema-guru",
 		html: "" +
 			"<div id='cinema-guru-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"cinema-guru-header\")'>" +
@@ -1280,6 +1310,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Trig Driver App",
+		carouselId: "#trig-driver-carousel",
+		id: "trig-driver",
 		html: "" +
 			"<div id='trig-driver-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"trig-driver-header\")'>" +
@@ -1343,6 +1375,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Encryptor App",
+		carouselId: "#encryptor-carousel",
+		id: "encryptor",
 		html: "" +
 			"<div id='encryptor-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"encryptor-header\")'>" +
@@ -1404,6 +1438,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "Fake Bank App",
+		carouselId: "#fake-bank-carousel",
+		id: "fake-bank",
 		html: "" +
 			"<div id='fake-bank-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"fake-bank-header\")'>" +
@@ -1468,6 +1504,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "Bookstore App",
+		carouselId: "#bookstore-carousel",
+		id: "bookstore",
 		html: "" +
 			"<div id='bookstore-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"bookstore-header\")'>" +
@@ -1567,6 +1605,8 @@ var categories = [
 	{
 		year: 2017,
 		name: "Event Note",
+		carouselId: "#event-note-carousel",
+		id: "event-note",
 		html: "" +
 			"<div id='event-note-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"event-note-header\")'>" +
@@ -1658,6 +1698,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "Phood Buddy Website",
+		carouselId: "#phood-buddy-carousel",
+		id: "phood-buddy",
 		html: "" +
 			"<div id='phood-buddy-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"phood-buddy-header\")'>" +
@@ -1801,6 +1843,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "The Cabal Effect Website",
+		carouselId: "#the-cabal-effect-carousel",
+		id: "the-cabal-effect",
 		html: "" +
 			"<div id='the-cabal-effect-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"the-cabal-effect-header\")'>" +
@@ -1888,6 +1932,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Content Alert Website",
+		carouselId: "#content-alert-carousel",
+		id: "content-alert",
 		html: "" +
 			"<div id='content-alert-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"content-alert-header\")'>" +
@@ -1963,6 +2009,8 @@ var categories = [
 	{
 		year: 2018,
 		name: "Sense the IRL Webapp",
+		carouselId: "#sense-the-irl-carousel",
+		id: "sense-the-irl",
 		html: "" +
 			"<div id='sense-the-irl-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"sense-the-irl-header\")'>" +
@@ -2052,6 +2100,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "VediCode Website",
+		carouselId: "#vedicode-carousel",
+		id: "vedicode",
 		html: "" +
 			"<div id='vedicode-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"vedicode-header\")'>" +
@@ -2130,6 +2180,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "Two-tiered Client-server",
+		carouselId: "#two-tiered_client-server-carousel",
+		id: "two-tiered_client-server",
 		html: "" +
 			"<div id='two-tiered_client-server-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"two-tiered_client-server-header\")'>" +
@@ -2257,6 +2309,8 @@ var categories = [
 	{
 		year: 2015,
 		name: "Financial Tracking Repository Webapp",
+		carouselId: "#financial-tracking-repository-carousel",
+		id: "financial-tracking-repository",
 		html: "" +
 			"<div id='financial-tracking-repository-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"financial-tracking-repository-header\")'>" +
@@ -2352,6 +2406,8 @@ var categories = [
 	{
 		year: 2017,
 		name: "Hospital Simulator",
+		carouselId: "#hospital-sim-carousel",
+		id: "hospital-sim",
 		html: "" +
 			"<div id='hospital-sim-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"hospital-sim-header\")'>" +
@@ -2454,6 +2510,8 @@ var categories = [
 	{
 		year: 2016,
 		name: "V.E.D.I.C",
+		carouselId: "#vedic-carousel",
+		id: "vedic",
 		html: "" +
 			"<div id='vedic-header' class='panel-heading'>" +
 				"<a class='panel-title' onclick='setPanelToTop(\"vedic-header\")'>" +
