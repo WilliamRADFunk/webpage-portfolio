@@ -241,6 +241,14 @@ ol
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #333333;
 }
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a.text-success {
+    color: #28a745 !important;
+    pointer-events: none;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a.disabled {
+    color: #cccccc !important;
+    pointer-events: none;
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover
