@@ -1,6 +1,53 @@
 [
 	{
 		"year": 2019,
+		"name": "Portfolio Website (Angular)",
+		"carouselId": "#portfolio-website-angular-carousel",
+		"id": "portfolio-website-angular",
+		"images": [
+			"portfolio-website-angular-screenshot-01.png"
+		],
+		"linkMessage": "Click to visit site",
+		"linkTarget": "http://www.williamrobertfunk.com/angular-version/",
+		"month": "03",
+		"subtitle": "-- HTML5, CSS, TypeScript, Angular 8, & Bootstrap 4 --",
+		"paragraphs": [
+			"The Angular version of this portfolio website you're looking at right now.",
+			"Uses Angular version 8 and bootstrap 4 to complete the basic structure and functionality of this site."
+		],
+		"secondaryLinkMessage": "",
+		"secondaryLinkTarget": "",
+		"secondaryYear": 2000,
+		"secondaryMonth": "00",
+		"secondaryTitle": "",
+		"secondarySubtitle": "",
+		"secondaryParagraphs": [],
+		"tags": [
+			"all",
+			"games",
+			"game",
+			"angular",
+			"angular 8",
+			"angular8",
+			"html 5",
+			"html5",
+			"sass",
+			"typescript",
+			"jquery",
+			"bootstrap",
+			"bootstrap 4",
+			"bootstrap4",
+			"html 5",
+			"html5",
+			"portfolio",
+			"webpage",
+			"website",
+			"portfolio website",
+			"portfolio webpage"
+		]
+	},
+	{
+		"year": 2019,
 		"name": "SuDoKu ExTrEmE",
 		"carouselId": "#sudoku-carousel",
 		"id": "sudoku",
@@ -1442,6 +1489,47 @@
 			"mysql",
 			"my sql",
 			"unity"
+		]
+	},
+	{
+		"year": 2015,
+		"name": "Portfolio Website (Vanilla)",
+		"carouselId": "#portfolio-website-carousel",
+		"id": "portfolio-website",
+		"images": [
+			"portfolio-website-screenshot-01.png"
+		],
+		"linkMessage": "Click to visit site",
+		"linkTarget": "https://www.williamrobertfunk.com",
+		"month": "08",
+		"subtitle": "-- HTML5, CSS, JavaScript, & JQuery --",
+		"paragraphs": [
+			"The plain javascript version of this portfolio website you're looking at right now.",
+			"Uses JQuery and bootstrap 3 to complete the basic structure and functionality of this site."
+		],
+		"secondaryLinkMessage": "",
+		"secondaryLinkTarget": "",
+		"secondaryYear": 2000,
+		"secondaryMonth": "00",
+		"secondaryTitle": "",
+		"secondarySubtitle": "",
+		"secondaryParagraphs": [],
+		"tags": [
+			"all",
+			"portfolio webpage",
+			"jquery",
+			"bootstrap",
+			"bootstrap 3",
+			"bootstrap3",
+			"html 5",
+			"html5",
+			"css",
+			"javascript",
+			"js",
+			"portfolio",
+			"webpage",
+			"website",
+			"portfolio website"
 		]
 	}
 ]
