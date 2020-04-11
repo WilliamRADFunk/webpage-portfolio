@@ -19,9 +19,9 @@ function setPanelToTop(elem)
 		var offset = document.getElementById(elem).getBoundingClientRect();
 		window.scrollBy(0, offset.top);
 		jumpTo();
+		// Gets the related carousel, and kicks off the cycling.
+		$('#' + elem.replace('header', 'carousel')).carousel('cycle');
 	}, 400);
-	var carousel = document.getElementById(elem.replace('header', 'carousel'));
-	$('#' + elem.replace('header', 'carousel')).carousel('cycle');
 }
 function changeActiveListElem(value)
 {

@@ -2,7 +2,7 @@
 	{
 		"year": 2019,
 		"name": "Portfolio Website (Angular)",
-		"carouselId": "#portfolio-website-angular-carousel",
+		"carouselId": "portfolio-website-angular-carousel",
 		"id": "portfolio-website-angular",
 		"images": [
 			"portfolio-website-angular-screenshot-01.png"
@@ -49,7 +49,7 @@
 	{
 		"year": 2019,
 		"name": "Cryptobot Interface",
-		"carouselId": "#cryptobot-interface-carousel",
+		"carouselId": "cryptobot-interface-carousel",
 		"id": "cryptobot-interface",
 		"images": [
 			"cryptobot-interface-screenshots-01.png",
@@ -110,7 +110,7 @@
 	{
 		"year": 2019,
 		"name": "Data Glutton",
-		"carouselId": "#data-glutton-carousel",
+		"carouselId": "data-glutton-carousel",
 		"id": "data-glutton",
 		"images": [
 			"data-glutton-screenshots-01.png",
@@ -188,7 +188,7 @@
 	{
 		"year": 2019,
 		"name": "SuDoKu ExTrEmE",
-		"carouselId": "#sudoku-carousel",
+		"carouselId": "sudoku-carousel",
 		"id": "sudoku",
 		"images": [
 			"sudoku-screenshot-01.png",
@@ -233,7 +233,7 @@
 	{
 		"year": 2018,
 		"name": "Planet Funk",
-		"carouselId": "#planet-funk-carousel",
+		"carouselId": "planet-funk-carousel",
 		"id": "planet-funk",
 		"images": [
 			"planet-funk-screenshots-01.jpg",
@@ -286,7 +286,7 @@
 	{
 		"year": 2017,
 		"name": "Stay In The Light",
-		"carouselId": "#stay-in-the-light-carousel",
+		"carouselId": "stay-in-the-light-carousel",
 		"id": "stay-in-the-light",
 		"images": [
 			"stay-in-the-light-screenshots-01.jpg",
@@ -338,7 +338,7 @@
 	{
 		"year": 2017,
 		"name": "Galactic Fighter",
-		"carouselId": "#galactic-fighter-carousel",
+		"carouselId": "galactic-fighter-carousel",
 		"id": "galactic-fighter",
 		"images": [
 			"galactic-fighter-screenshots-01.jpg",
@@ -386,7 +386,7 @@
 	{
 		"year": 2016,
 		"name": "Cinema Tycoon",
-		"carouselId": "#cinema-tycoon-carousel",
+		"carouselId": "cinema-tycoon-carousel",
 		"id": "cinema-tycoon",
 		"images": [
 			"cinema-tycoon-screenshots-01.png",
@@ -442,7 +442,7 @@
 	{
 		"year": 2017,
 		"name": "Horseshoe Sweepstakes",
-		"carouselId": "#horseshoe-sweepstakes-carousel",
+		"carouselId": "horseshoe-sweepstakes-carousel",
 		"id": "horseshoe-sweepstakes",
 		"images": [
 			"horseshoe-screenshots-01.jpg",
@@ -507,7 +507,7 @@
 	{
 		"year": 2015,
 		"name": "Planet Defense",
-		"carouselId": "#planetary-defense-carousel",
+		"carouselId": "planetary-defense-carousel",
 		"id": "planetary-defense",
 		"images": [
 			"planetary-defense-screenshots-01.png",
@@ -551,7 +551,7 @@
 	{
 		"year": 2015,
 		"name": "Hack Bauer",
-		"carouselId": "#hack-bauer-carousel",
+		"carouselId": "hack-bauer-carousel",
 		"id": "hack-bauer",
 		"images": [
 			"hack-bauer-codebreaker-screenshots-01.png",
@@ -596,7 +596,7 @@
 	{
 		"year": 2015,
 		"name": "Siege Warfare",
-		"carouselId": "#siege-warfare-carousel",
+		"carouselId": "siege-warfare-carousel",
 		"id": "siege-warfare",
 		"images": [
 			"siege-warfare-screenshots-01.png",
@@ -647,7 +647,7 @@
 	{
 		"year": 2015,
 		"name": "3D Pong",
-		"carouselId": "#pong-3D-carousel",
+		"carouselId": "pong-3D-carousel",
 		"id": "pong-3D",
 		"images": [
 			"pong-3D-screenshots-01.png",
@@ -688,7 +688,7 @@
 	{
 		"year": 2015,
 		"name": "3D TicTacToe",
-		"carouselId": "#tictactoe3D-carousel",
+		"carouselId": "tictactoe3D-carousel",
 		"id": "tictactoe3D",
 		"images": [
 			"tictactoe3D-screenshots-01.png",
@@ -732,7 +732,7 @@
 	{
 		"year": 2015,
 		"name": "TicTacToe 2D",
-		"carouselId": "#tictactoe2D-carousel",
+		"carouselId": "tictactoe2D-carousel",
 		"id": "tictactoe2D",
 		"images": [
 			"tictactoe2D-AIOpponent-screenshots-01.png",
@@ -775,7 +775,7 @@
 	{
 		"year": 2015,
 		"name": "Q Fish",
-		"carouselId": "#q-fish-carousel",
+		"carouselId": "q-fish-carousel",
 		"id": "q-fish",
 		"images": [
 			"q-fish-screenshots-01.png",
@@ -808,7 +808,7 @@
 	{
 		"year": 2015,
 		"name": "Total Recall",
-		"carouselId": "#total-recall-carousel",
+		"carouselId": "total-recall-carousel",
 		"id": "total-recall",
 		"images": [
 			"total-recall-screenshots-01.png",
@@ -845,7 +845,7 @@
 	{
 		"year": 2015,
 		"name": "Cinema Guru",
-		"carouselId": "#cinema-guru-carousel",
+		"carouselId": "cinema-guru-carousel",
 		"id": "cinema-guru",
 		"images": [
 			"cinema-guru-screenshots-01.png",
@@ -886,7 +886,7 @@
 	{
 		"year": 2015,
 		"name": "Trig Driver App",
-		"carouselId": "#trig-driver-carousel",
+		"carouselId": "trig-driver-carousel",
 		"id": "trig-driver",
 		"images": [
 			"trig-driver-screenshots-01.png",
@@ -926,7 +926,7 @@
 	{
 		"year": 2015,
 		"name": "Encryptor App",
-		"carouselId": "#encryptor-carousel",
+		"carouselId": "encryptor-carousel",
 		"id": "encryptor",
 		"images": [
 			"encryptor-screenshots-01.png",
@@ -964,7 +964,7 @@
 	{
 		"year": 2016,
 		"name": "Fake Bank App",
-		"carouselId": "#fake-bank-carousel",
+		"carouselId": "fake-bank-carousel",
 		"id": "fake-bank",
 		"images": [
 			"fake-bank-screenshots-01.jpg",
@@ -1010,7 +1010,7 @@
 	{
 		"year": 2016,
 		"name": "Bookstore App",
-		"carouselId": "#bookstore-carousel",
+		"carouselId": "bookstore-carousel",
 		"id": "bookstore",
 		"images": [
 			"bookstore-screenshots-01.jpg",
@@ -1063,7 +1063,7 @@
 	{
 		"year": 2017,
 		"name": "Event Note",
-		"carouselId": "#event-note-carousel",
+		"carouselId": "event-note-carousel",
 		"id": "event-note",
 		"images": [
 			"event-note-screenshots-01.png",
@@ -1116,7 +1116,7 @@
 	{
 		"year": 2016,
 		"name": "Phood Buddy Website",
-		"carouselId": "#phood-buddy-carousel",
+		"carouselId": "phood-buddy-carousel",
 		"id": "phood-buddy",
 		"images": [
 			"phood-buddy-screenshots-01.jpg",
@@ -1180,7 +1180,7 @@
 	{
 		"year": 2016,
 		"name": "The Cabal Effect Website",
-		"carouselId": "#the-cabal-effect-carousel",
+		"carouselId": "the-cabal-effect-carousel",
 		"id": "the-cabal-effect",
 		"images": [
 			"the-cabal-effect-screenshots-01.jpg",
@@ -1230,7 +1230,7 @@
 	{
 		"year": 2015,
 		"name": "Content Alert Website",
-		"carouselId": "#content-alert-carousel",
+		"carouselId": "content-alert-carousel",
 		"id": "content-alert",
 		"images": [
 			"content-alert-screenshots-01.jpg",
@@ -1274,7 +1274,7 @@
 	{
 		"year": 2018,
 		"name": "Sense the IRL Webapp",
-		"carouselId": "#sense-the-irl-carousel",
+		"carouselId": "sense-the-irl-carousel",
 		"id": "sense-the-irl",
 		"images": [
 			"sense-the-irl-01.jpg",
@@ -1334,7 +1334,7 @@
 	{
 		"year": 2016,
 		"name": "VediCode Website",
-		"carouselId": "#vedicode-carousel",
+		"carouselId": "vedicode-carousel",
 		"id": "vedicode",
 		"images": [
 			"vedicode-screenshots-01.png",
@@ -1384,7 +1384,7 @@
 	{
 		"year": 2016,
 		"name": "Two-tiered Client-server",
-		"carouselId": "#two-tiered_client-server-carousel",
+		"carouselId": "two-tiered_client-server-carousel",
 		"id": "two-tiered_client-server",
 		"images": [
 			"two-tiered-client-server-screenshots-01.jpg",
@@ -1453,7 +1453,7 @@
 	{
 		"year": 2015,
 		"name": "Financial Tracking Repository Webapp",
-		"carouselId": "#financial-tracking-repository-carousel",
+		"carouselId": "financial-tracking-repository-carousel",
 		"id": "financial-tracking-repository",
 		"images": [
 			"financial-tracking-repository-screenshots-01.jpg",
@@ -1511,7 +1511,7 @@
 	{
 		"year": 2017,
 		"name": "Hospital Simulator",
-		"carouselId": "#hospital-sim-carousel",
+		"carouselId": "hospital-sim-carousel",
 		"id": "hospital-sim",
 		"images": [
 			"hospital-sim-screenshots-01.jpg",
@@ -1569,7 +1569,7 @@
 	{
 		"year": 2016,
 		"name": "V.E.D.I.C",
-		"carouselId": "#vedic-carousel",
+		"carouselId": "vedic-carousel",
 		"id": "vedic",
 		"images": [
 			"vedic-screenshots-01.jpg",
@@ -1633,7 +1633,7 @@
 	{
 		"year": 2015,
 		"name": "Portfolio Website (Vanilla)",
-		"carouselId": "#portfolio-website-carousel",
+		"carouselId": "portfolio-website-carousel",
 		"id": "portfolio-website",
 		"images": [
 			"portfolio-website-screenshot-01.png"
